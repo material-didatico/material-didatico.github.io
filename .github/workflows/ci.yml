@@ -1,3 +1,4 @@
+
 name: ci
 
 on:
@@ -13,11 +14,12 @@ permissions:
 
 concurrency:
   group: "pages"
-  cancel-in-progress: false
+  cancel-in-progress: true
 
 jobs:
   deploy:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
       - name: Configure Git Credentials
