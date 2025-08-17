@@ -1,5 +1,15 @@
+
 site_name: Luis A. D'Afonseca - Material Didático
 site_url: https://material-didatico.github.io
+
+nav:
+  - Home:  index.md
+  - Disciplinas:
+    - CFVVI: cfvv1/index.md
+    - IS:    is/index.md
+  - Outros:
+    - LaTeX:  latex/index.md
+    - Python: python/index.md
 
 theme:
   name: material
@@ -30,14 +40,6 @@ theme:
       toggle:
         icon: material/brightness-4
         name: Switch to light mode
-
-nav:
-  - Home:  index.md
-  - Disciplinas:
-    - CFVVI: cfvv1/index.md
-    - IS:    is/index.md
-  - Outros:
-    - LaTeX: latex/index.md
 
 markdown_extensions:
   - admonition
