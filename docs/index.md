@@ -7,7 +7,12 @@ Prof. Dr. Luis A. D'Afonseca
 
 ## Disciplinas
 
+[Ementas das disciplinas](https://www.dm.cefetmg.br/ensino/disciplinas/disciplinas-do-nucleo-de-matematica-grad)
+
 - [CFVVI - Cálculo de Funções de Várias Variáveis I](cfvv1/index.md)
 - [IS - Integração e Séries](is/index.md)
 
-[Disciplinas do Departamento de Matemática](https://www.dm.cefetmg.br/ensino/disciplinas/disciplinas-do-nucleo-de-matematica-grad)
+## Outros Cursos
+
+- [Introdução ao LaTeX](latex/index.md)
+

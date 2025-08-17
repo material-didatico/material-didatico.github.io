@@ -1,4 +1,4 @@
-site_name: Material Didático
+site_name: Luis A. D'Afonseca - Material Didático
 site_url: https://material-didatico.github.io
 
 theme:
@@ -18,11 +18,7 @@ theme:
         name: Switch to light mode
 
 nav:
-  - Home: index.md
+  - Home:  index.md
   - CFVVI: cfvv1/index.md
-
-extra:
-  social:
-    - icon: fontawesome/brands/creative-commons
-      link: https://creativecommons.org/licenses/by/4.0/
-      name: CC BY 4.0
+  - IS:    is/index.md
+  - LaTeX: latex/index.md
