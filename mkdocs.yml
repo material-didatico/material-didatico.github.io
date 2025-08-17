@@ -3,22 +3,48 @@ site_url: https://material-didatico.github.io
 
 theme:
   name: material
+  language: pt-BR
+  logo: img/favicon.png
   favicon: img/favicon.png
-  custom_dir: overrides
+  custom_dir: docs/overrides
+
+  features:
+    - navigation.instant
+
+  font:
+    text: "Lato"
+    code: "Fira Code"
+
   palette:
+    # Light mode
     - media: "(prefers-color-scheme: light)"
       scheme: default
       toggle:
         icon: material/brightness-7
         name: Switch to dark mode
+    # Dark mode
     - media: "(prefers-color-scheme: dark)"
       scheme: slate
+      primary: blue grey
+      accent: orange
       toggle:
         icon: material/brightness-4
         name: Switch to light mode
 
 nav:
   - Home:  index.md
-  - CFVVI: cfvv1/index.md
-  - IS:    is/index.md
-  - LaTeX: latex/index.md
+  - Disciplinas:
+    - CFVVI: cfvv1/index.md
+    - IS:    is/index.md
+  - Outros:
+    - LaTeX: latex/index.md
+
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
+
+extra_css:
+  - stylesheets/extras.css
