@@ -1,0 +1,37 @@
+-- frame:5: -------------------------------------------------------------------
+
+def ola_mundo():
+
+  print('Ol Mundo!')
+
+
+-- frame:6: -------------------------------------------------------------------
+
+def bom_dia(nome):
+
+  print('Bom dia,', nome, '!')
+
+
+-- frame:7: -------------------------------------------------------------------
+
+def quadrado(lado):
+
+  return lado * lado
+
+
+-- frame:11: -------------------------------------------------------------------
+
+import math
+import math as m
+from math import cos
+from math import sin as sen
+
+
+-- frame:11: -------------------------------------------------------------------
+
+import math
+import math as m
+from math import cos
+from math import sin as sen
+
+
