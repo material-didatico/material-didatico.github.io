@@ -1,0 +1,119 @@
+-- frame:9: -------------------------------------------------------------------
+
+% Pacote
+\usepackage{graphicx}
+
+% Pasta com os arquivos
+\graphicspath{{./figs/}}
+
+
+-- frame:9: -------------------------------------------------------------------
+
+% Comando
+\includegraphics[width=0.8\linewidth]{latex_pet}
+
+
+-- frame:12: -------------------------------------------------------------------
+
+\begin{figure}
+  \includegraphics[width=0.8\linewidth]{latex_pet}
+\end{figure}
+
+
+-- frame:14: -------------------------------------------------------------------
+
+\begin{figure}
+  \centering
+  \includegraphics[width=0.8\linewidth]{latex_pet}
+\end{figure}
+
+
+-- frame:16: -------------------------------------------------------------------
+
+\begin{figure}
+  \centering
+  \includegraphics[width=0.8\linewidth]{latex_pet}
+  \caption{Comeando a usar o \LaTeX.}
+\end{figure}
+
+
+-- frame:18: -------------------------------------------------------------------
+
+\begin{figure}
+  \centering
+  \includegraphics[width=0.8\linewidth]{latex_pet}
+  \caption{Comeando a usar o \LaTeX.}
+  \label{fig:latex}
+\end{figure}
+
+
+-- frame:20: -------------------------------------------------------------------
+
+Como vemos na Figura~\ref{fig:latex}
+ necessrio comear a usar o \LaTeX.
+
+
+-- frame:22: -------------------------------------------------------------------
+
+\listoffigures
+
+
+-- frame:22: -------------------------------------------------------------------
+
+\listoftables
+
+
+-- frame:22: -------------------------------------------------------------------
+
+\tableofcontents
+
+
+-- frame:23: -------------------------------------------------------------------
+
+\caption[Nome da figura]{Legenda da figura}
+
+
+-- frame:24: -------------------------------------------------------------------
+
+\begin{figure}
+  \centering
+  \includegraphics[width=0.4\linewidth]{polinomio-1}
+  \hspace{1cm}
+  \includegraphics[width=0.4\linewidth]{polinomio-2}
+  \caption{Duas imagens na mesma figura.}
+\end{figure}
+
+
+-- frame:26: -------------------------------------------------------------------
+
+\begin{figure}
+  \centering
+  \includegraphics[height=3cm]{polinomio-1}
+  \hspace{1cm}
+  \includegraphics[height=2cm]{polinomio-2}
+  \caption{Definindo a altura das imagens.}
+\end{figure}
+
+
+-- frame:30: -------------------------------------------------------------------
+
+\begin{figure}
+  \centering
+  \fbox{\includegraphics[height=0.8\textheight]{funcao_pdf}}
+\end{figure}
+
+
+-- frame:33: -------------------------------------------------------------------
+
+\begin{figure}
+  \centering
+  \fbox{\includegraphics[trim={18mm 9mm 12mm 7mm}, clip,
+                         height=0.8\textheight]{funcao_pdf}}
+\end{figure}
+
+
+-- frame:33: -------------------------------------------------------------------
+
+trim={esquerda baixo direita cima}, clip,
+
+
