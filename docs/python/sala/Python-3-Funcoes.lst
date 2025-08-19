@@ -19,15 +19,7 @@ def quadrado(lado):
   return lado * lado
 
 
--- frame:11: -------------------------------------------------------------------
-
-import math
-import math as m
-from math import cos
-from math import sin as sen
-
-
--- frame:11: -------------------------------------------------------------------
+-- frame:10: -------------------------------------------------------------------
 
 import math
 import math as m
