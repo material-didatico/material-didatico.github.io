@@ -1,0 +1,61 @@
+-- frame:3: -------------------------------------------------------------------
+
+Uma tabela encaixotada e indevidamente misturada com o texto
+\begin{tabular}{|l|l|}               \hline
+  Estado         & Capital        \\ \hline
+  Minas Gerais   & Belo Horizonte \\
+  Espirito Santo & Vitria        \\
+  Paran         & Curitiba       \\ \hline
+\end{tabular}
+causando uma formatao inadequada.
+
+
+-- frame:5: -------------------------------------------------------------------
+
+O seu texto fica separado da tabela, que agora  um
+objeto flutuante.
+\begin{table}
+  \begin{tabular}{|l|l|}               \hline
+    Estado         & Capital        \\ \hline
+    Minas Gerais   & Belo Horizonte \\
+    Espirito Santo & Vitria        \\
+    Paran         & Curitiba       \\ \hline
+  \end{tabular}
+  \caption{Tabela encaixotada.}
+  \label{tab:encaixotada}
+\end{table}
+
+
+-- frame:7: -------------------------------------------------------------------
+
+O seu texto fica separado da tabela, que agora  um
+objeto flutuante.
+\begin{table}
+  \begin{tabular}{ll}                  \hline
+    Estado         & Capital        \\ \hline
+    Minas Gerais   & Belo Horizonte \\
+    Espirito Santo & Vitria        \\
+    Paran         & Curitiba       \\ \hline
+  \end{tabular}
+  \caption{Uma tabela melhor.}
+  \label{tab:melhor}
+\end{table}
+
+
+-- frame:9: -------------------------------------------------------------------
+
+O seu texto fica separado da tabela, que agora  um
+objeto flutuante.
+\begin{table}
+  \begin{tabular}{l<{\quad}>{\quad}l}      \hline
+    \multicolumn{1}{c}{\textbf{Estado}}    &
+    \multicolumn{1}{c}{\textbf{Capital}}   \\ \hline
+    Minas Gerais   & Belo Horizonte        \\
+    Espirito Santo & Vitria               \\
+    Paran         & Curitiba              \\ \hline
+  \end{tabular}
+  \caption{Uma tabela elegante.}
+  \label{tab:titulos}
+\end{table}
+
+
