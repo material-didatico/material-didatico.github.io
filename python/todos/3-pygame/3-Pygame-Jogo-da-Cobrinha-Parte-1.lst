@@ -1,0 +1,190 @@
+-- frame:4: -------------------------------------------------------------------
+
+import pygame as pg
+
+# SETUP
+pg.init()
+
+largura, altura = 720, 720
+tela = pg.display.set_mode((largura, altura))
+clock = pg.time.Clock()
+
+
+-- frame:5: -------------------------------------------------------------------
+
+# LOOP PRINCIPAL
+while True:
+
+  clock.tick(60)
+
+  for event in pg.event.get():
+    if event.type == pg.QUIT:
+      pg.quit()
+
+  pg.display.update()
+
+
+-- frame:9: -------------------------------------------------------------------
+
+# SETUP
+#...
+
+tam = 30
+
+cobra_pos = pg.Vector2(
+  tela.get_width()/2,
+  tela.get_height()/2
+)
+
+
+-- frame:10: -------------------------------------------------------------------
+
+# LOOP PRINCIPAL
+while True:
+  #...
+
+  tela.fill('white')
+
+  cobra = pg.draw.rect(
+    tela,
+    'green',
+    (cobra_pos.x, cobra_pos.y, tam, tam)
+  )
+
+
+-- frame:14: -------------------------------------------------------------------
+
+# SETUP
+#...
+
+velocidade = 5
+
+
+-- frame:15: -------------------------------------------------------------------
+
+# LOOP PRINCIPAL
+  #...
+
+  key = pg.key.get_pressed()
+  if key[pg.K_w]:
+    cobra_pos.y -= velocidade
+  if key[pg.K_s]:
+    cobra_pos.y += velocidade
+  if key[pg.K_a]:
+    cobra_pos.x -= velocidade
+  if key[pg.K_d]:
+    cobra_pos.x += velocidade
+
+
+-- frame:18: -------------------------------------------------------------------
+
+# SETUP
+#...
+
+import random as rd
+
+maca_pos = pg.Vector2(
+    rd.randint(tam, largura-tam),
+    rd.randint(tam, altura-tam)
+)
+
+
+-- frame:19: -------------------------------------------------------------------
+
+# LOOP PRINCIPAL
+#...
+  maca = pg.draw.rect(
+    tela,
+    "red",
+    (maca_pos.x, maca_pos.y, tam, tam)
+  )
+
+  if maca.colliderect(cobra):
+    maca_pos.x=rd.randint(tam, largura-tam)
+    maca_pos.y=rd.randint(tam, altura-tam)
+
+
+
+-- frame:23: -------------------------------------------------------------------
+
+# SETUP
+#...
+
+control_pos = pg.Vector2(velocidade,0)
+
+
+-- frame:24: -------------------------------------------------------------------
+
+# LOOP PRINCIPAL
+#...
+  key = pg.key.get_pressed()
+  if key[pg.K_w]:
+    control_pos.y = -velocidade
+    control_pos.x = 0
+  if key[pg.K_s]:
+    control_pos.y = velocidade
+    control_pos.x = 0
+    #...
+
+
+-- frame:25: -------------------------------------------------------------------
+
+#...
+  if key[pg.K_a]:
+    control_pos.y = 0
+    control_pos.x = -velocidade
+  if key[pg.K_d]:
+    control_pos.y = 0
+    control_pos.x = velocidade
+
+  cobra_pos.x += control_pos.x
+  cobra_pos.y += control_pos.y
+
+
+-- frame:29: -------------------------------------------------------------------
+
+# SETUP
+#...
+
+lista_cobra = []
+
+
+-- frame:30: -------------------------------------------------------------------
+
+# LOOP PRINCIPAL
+#...
+   lista_cabeca = []
+   lista_cabeca.append(cobra_pos.x)
+   lista_cabeca.append(cobra_pos.y)
+   lista_cobra.append(lista_cabeca)
+
+
+
+-- frame:31: -------------------------------------------------------------------
+
+  #...
+
+  for pos in lista_cobra:
+    pg.draw.rect(
+      tela,
+      'green',
+      (pos[0], pos[1], tam, tam)
+    )
+
+
+-- frame:34: -------------------------------------------------------------------
+
+# SETUP
+#...
+
+tamanho_cobra = 15
+
+
+-- frame:35: -------------------------------------------------------------------
+
+# LOOP PRINCIPAL
+#...
+  if len(lista_cobra) > tamanho_cobra:
+    del lista_cobra[0]
+
+
