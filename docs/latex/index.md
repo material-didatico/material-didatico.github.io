@@ -1,6 +1,6 @@
 # Introdução ao LaTeX
 
-??? "Apresentações das aulas"
+!!! info "Apresentações das aulas"
 
     ??? abstract "A introducao"
         - [[PDF]](classes/A-introducao/A-01-Introducao.pdf) [[LST]](classes/A-introducao/A-01-Introducao.lst) A 01 Introducao

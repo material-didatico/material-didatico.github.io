@@ -4,11 +4,11 @@ site_url: https://material-didatico.github.io
 
 nav:
   - Home:  index.md
-  - Disciplinas:
+  - Graduação:
     - CFVVI: cfvv1/index.md
     - IS:    is/index.md
   - Outros:
-    - LaTeX:  latex/index.md
+    - LaTeX:  pages/latex.md
     - Python: python/index.md
 
 theme:
