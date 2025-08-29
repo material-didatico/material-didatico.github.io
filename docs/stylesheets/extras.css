@@ -7,7 +7,7 @@
   margin-top: 2rem;
   margin-bottom: 1rem;
   padding-bottom: .5rem;
-  color: var(--md-default-fg-color);
+  color: var(--md-accent-fg-color);
 }
 
 /* Seções principais (##) */
@@ -18,7 +18,7 @@
   margin-bottom: 0.75rem;
   padding-left: .6rem;
   border-bottom: 1px solid var(--md-default-fg-color);
-  color: var(--md-default-fg-color);
+  color: var(--md-accent-fg-color);
 }
 
 /* Subseções (###) */
@@ -29,7 +29,7 @@
   margin-bottom: 0.5rem;
   border-bottom: 2px solid var(--md-default-fg-color--lightest);
   padding-bottom: .25rem;
-  color: var(--md-default-fg-color);
+  color: var(--md-accent-fg-color);
 }
 
 /* Nível 4 (####) */
@@ -38,7 +38,7 @@
   font-weight: 300;
   margin-top: 1.2rem;
   margin-bottom: 0.4rem;
-  color: var(--md-default-fg-color);
+  color: var(--md-accent-fg-color);
   text-decoration: underline;
   text-decoration-color: var(--md-default-fg-color);
   text-decoration-thickness: 2px;

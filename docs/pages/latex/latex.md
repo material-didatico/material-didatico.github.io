@@ -5,7 +5,7 @@ Está página contém um passo a passo para a instalação do LaTeX em
 computadores Windows e as apresentações de um curso rápido sobre o LaTeX.
 
 !!! abstract "Apresentações"
-    As apresentações do curso podem ser baixadas [desta página](../latex/index.md)
+    As apresentações do curso podem ser baixadas [desta página](../../latex/index.md)
 
 ## Como usar o LaTeX para escrever a dissertação para o Profmat
 
@@ -46,7 +46,8 @@ A vantagem da instalação do LaTeX em seu computador é:
 A desvantagem é:
   - ter que instalar alguns programas.
 
-Para instalar o LaTeX siga as instruções desse [link](latex_instalacao.md)
+!!! abstract "Instalando o LaTeX"
+    Para instalar o LaTeX siga as instruções [deste link](latex_instalacao.md)
 
 Se você for aluno do Profmat no Cefet-MG os modelos de dissertação
 estão descritos nesta [página](latex_profmat.md).

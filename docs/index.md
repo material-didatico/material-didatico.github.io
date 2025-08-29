@@ -14,6 +14,6 @@ Prof. Dr. Luis A. D'Afonseca
 
 ## Outros Cursos
 
-- [Introdução ao LaTeX](pages/latex.md)
+- [Introdução ao LaTeX](pages/latex/latex.md)
 - [Introdução ao Python](python/index.md)
 

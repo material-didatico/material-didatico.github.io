@@ -8,7 +8,7 @@ nav:
     - CFVVI: cfvv1/index.md
     - IS:    is/index.md
   - Outros:
-    - LaTeX:  pages/latex.md
+    - LaTeX:  pages/latex/latex.md
     - Python: python/index.md
 
 theme:
@@ -36,7 +36,7 @@ theme:
     - media: "(prefers-color-scheme: dark)"
       scheme: slate
       primary: blue grey
-      accent: orange
+      accent: deep orange
       toggle:
         icon: material/brightness-4
         name: Switch to light mode

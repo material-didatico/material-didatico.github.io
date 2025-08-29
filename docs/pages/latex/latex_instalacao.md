@@ -51,8 +51,8 @@ necessário instalar cada pacote faltante quando for necessário utilizá-los.
 __Instalando o LaTeX__
 
 1. Entre na página de downloads do MiKTeX: <http://miktex.org/download>;
-1. Clique em download para baixar o arquivo `basic-miktex-2.9.7031.exe`;
-1. Rode o programa `basic-miktex-2.9.7031.exe`;
+1. Clique em download para baixar o arquivo `basic-miktex-*.exe` (o * indica a versão atual);
+1. Rode o programa `basic-miktex-*.exe`;
 1. Aceite os termos da copying conditions;
 1. Selecione instalar para todos os usuários do sistema;
 1. Escolha onde instalar o MiKTeX. Recomendo manter o local sugerido;
@@ -79,8 +79,7 @@ __Download do instalador__
 1. Selecione a aba `All Downloads`;
 1. Selecione a opção `Net Installer`, escolha 32 ou 64 bits de acordo com
    seu computador;
-1. Clique em download para baixar o arquivo `setup-2.9.6942-x64.exe` (ou
-   `setup-2.9.6942.exe` se seu computador for 32 bits).
+1. Clique em download para baixar o arquivo `setup-*.exe`.
 
 __Baixando o LaTeX__
 
@@ -132,7 +131,7 @@ desinstalado, sem problemas.
 1. No menu a esquerda, clique em `Download`;
 1. Baixe o programa, clicando no link download associado a versão adequada
    para seu Windows;
-1. Execute o programa baixado, por exemplo, `texstudio-2.12.14-win-qt5`;
+1. Execute o programa baixado: `texstudio-*.exe`;
 1. Autorize o programa a fazer alterações no seu computador;
 1. Selecione o local de destino, recomendo deixar a opção padrão;
 1. Feche o instalador.
@@ -143,7 +142,7 @@ desinstalado, sem problemas.
 
 1. No menu selecione: Options e depois Configure TeXstudio;
 1. No quadro de diálogo que será aberto, selecione a aba General;
-1. Nessa aba encontre o campo Language e selecione PT_BR;
+1. Nessa aba encontre o campo Language e selecione `PT_BR`;
 1. Confirme clicando em OK.
 
 #### Para usar a bibliografia corretamente
@@ -171,7 +170,7 @@ está conectado na internet antes de iniciar o teste para poder baixar os
 pacotes quando solicitado.
 
 1. Rode o TeXstudio;
-1. Abra o arquivo dissertacao.tex distribuído com a Classe;
+1. Abra o arquivo `dissertacao.tex` distribuído com a Classe;
 1. Clique no botão verde igual ao botão de avanço rápido;
 1. Se todos os pacotes necessários estiverem instalados, o TeXstudio deve
    apresentar o PDF com o resultado sem erro após alguns instantes;
@@ -203,8 +202,8 @@ O último programa a ser instalado é o JabRef. Esse programa facilita a criaç�
 de um banco de dados com informações sobre a bibliografia para ser usado pelo
 BibLaTeX. Para instalar esse programa siga os passos:
 
-1. Abra a página <www.fosshub.com/JabRef.html>;
-1. Clique para baixar a versão do JabRef para Windows `JabRef_windows-x64_4_3_1.exe`;
+1. Abra a página <http://www.fosshub.com/JabRef.html> ;
+1. Clique para baixar a versão do JabRef para Windows `JabRef-*`;
 1. Execute o programa baixado;
 1. Permita que o programa faça alterações no sistema.
 

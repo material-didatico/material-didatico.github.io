@@ -82,7 +82,9 @@ Materiais para a disciplina Integração e Séries
         - [[PDF]](exams/2023-2/IS_2023-2_prova_01_T5.pdf) IS 2023 2 prova 01 T5
         - [[PDF]](exams/2023-2/IS_2023-2_prova_02_T4.pdf) IS 2023 2 prova 02 T4
         - [[PDF]](exams/2023-2/IS_2023-2_prova_02_T5.pdf) IS 2023 2 prova 02 T5
+        - [[PDF]](exams/2023-2/IS_2023-2_prova_03_T4.pdf) IS 2023 2 prova 03 T4
         - [[PDF]](exams/2023-2/IS_2023-2_prova_03_T5.pdf) IS 2023 2 prova 03 T5
+        - [[PDF]](exams/2023-2/IS_2023-2_prova_04_T4.pdf) IS 2023 2 prova 04 T4
         - [[PDF]](exams/2023-2/IS_2023-2_prova_04_T5.pdf) IS 2023 2 prova 04 T5
         - [[PDF]](exams/2023-2/IS_2023-2_prova_05_sub_T4.pdf) IS 2023 2 prova 05 sub T4
         - [[PDF]](exams/2023-2/IS_2023-2_prova_05_sub_T5.pdf) IS 2023 2 prova 05 sub T5
