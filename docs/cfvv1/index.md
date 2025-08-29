@@ -15,12 +15,12 @@ Materiais para a disciplina Cálculo de Funções de Várias Variáveis I
         - [[PDF]](classes/B-Curvas_parametricas/B-01-Plano_cartesiano.pdf) B 01 Plano cartesiano
         - [[PDF]](classes/B-Curvas_parametricas/B-02-Curvas_parametricas.pdf) B 02 Curvas parametricas
         - [[PDF]](classes/B-Curvas_parametricas/B-03-Vetor_tangente.pdf) B 03 Vetor tangente
-        - [[PDF]](classes/B-Curvas_parametricas/B-04-Derivada_curva_parametrica.pdf) B 04 Derivada curva parametrica
 
     ??? abstract "C Quadricas"
         - [[PDF]](classes/C-Quadricas/C-01-Coordenadas_e_esferas.pdf) C 01 Coordenadas e esferas
         - [[PDF]](classes/C-Quadricas/C-02-Vetores_e_planos.pdf) C 02 Vetores e planos
-        - [[PDF]](classes/C-Quadricas/C-03-Cilindros_e_quadricas.pdf) C 03 Cilindros e quadricas
+        - [[PDF]](classes/C-Quadricas/C-03-Conicas.pdf) C 03 Conicas
+        - [[PDF]](classes/C-Quadricas/C-04-Quadricas.pdf) C 04 Quadricas
 
     ??? abstract "D Funcoes"
         - [[PDF]](classes/D-Funcoes/D-01-Funcoes_varias_variaveis.pdf) D 01 Funcoes varias variaveis
