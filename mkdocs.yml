@@ -5,11 +5,13 @@ site_url: https://material-didatico.github.io
 nav:
   - Home:  index.md
   - Graduação:
-    - CFVVI: cfvv1/index.md
-    - IS:    is/index.md
+    - CFVVI: pages/cfvv1/index.md
+    - IS:    pages/is/index.md
+  - Profmat:
+    - Nice Booklet: pages/booklet/index.md
   - Outros:
     - LaTeX:  pages/latex/latex.md
-    - Python: python/index.md
+    - Python: pages/python/index.md
 
 theme:
   name: material
@@ -43,6 +45,7 @@ theme:
 
 markdown_extensions:
   - admonition
+  - attr_list
   - pymdownx.details
   - pymdownx.superfences
   - pymdownx.tabbed:
