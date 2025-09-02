@@ -7,6 +7,9 @@ nav:
   - Graduação:
     - CFVVI: pages/cfvv1/index.md
     - IS:    pages/is/index.md
+    - Adminstração: pages/administracao/index.md
+  - Ensino Básico:
+    - Zip Math: pages/zip_math/index.md
   - Profmat:
     - Nice Booklet: pages/booklet/index.md
   - Outros:
