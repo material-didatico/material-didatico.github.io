@@ -1,6 +1,6 @@
 # Nice Booklet
 
-[![Nice Booklet](nice_booklet_capa.jpg){ width="350" }](action/NiceBooklet_Manual.pdf)
+[![Nice Booklet](capa_nice_booklet.jpg){ width="350" }](action/NiceBooklet_Manual.pdf)
 
 
 ## Download

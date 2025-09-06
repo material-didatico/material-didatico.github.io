@@ -3,13 +3,19 @@ site_name: Luis A. D'Afonseca - Material Didático
 site_url: https://material-didatico.github.io
 
 nav:
-  - Home:  index.md
+  - Home: index.md
   - Graduação:
-    - CFVVI: pages/cfvv1/index.md
-    - IS:    pages/is/index.md
-    - Adminstração: pages/administracao/index.md
+    - Cálculo de Funções de Várias Vaiáveis I: pages/cfvv1/index.md
+    - Integração e Séries: pages/is/index.md
+    - EDPs:                pages/edp/index.md
+    - Administração:       pages/administracao/index.md
+    - Cálculo IV:          pages/calculo_4/index.md
   - Ensino Básico:
-    - Zip Math: pages/zip_math/index.md
+    - Infinito:         pages/infinito/index.md
+    - Construção Civil: pages/civil/index.md
+    - Métodos Numéricos para o Ensino Médio: pages/met_num_medio/index.md
+    - Investimentos:    pages/investimentos/index.md
+    - Zip Math:         pages/zip_math/index.md
   - Profmat:
     - Nice Booklet: pages/booklet/index.md
   - Outros:
