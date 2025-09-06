@@ -1,0 +1,141 @@
+-- frame:4: -------------------------------------------------------------------
+
+\begin{thebibliography}{}
+
+  \bibitem{MORAISFILHO} FILHO, D. C. de M.
+      \textbf{}. 1. ed.
+      Rio de Janeiro: SBM, 2014. 169p. ISBN 9788583370192.
+
+  \bibitem{LAMPORT} LAMPORT, L.
+      \textbf{Latex Document Preparation System}.  [S.l.]:
+      Addison Wesley Publishing Co, 1985. ISBN 978-0201157901.
+
+\end{thebibliography}
+
+
+-- frame:10: -------------------------------------------------------------------
+
+  Citando numericamente~\cite{HEFEZ:ARIT}.
+
+
+-- frame:11: -------------------------------------------------------------------
+
+  Citando o nome do autor~\citeauthor{HEFEZ:ARIT}.
+
+
+-- frame:12: -------------------------------------------------------------------
+
+  Citando o nome e nmero~\textcite{HEFEZ:ARIT}.
+
+
+-- frame:13: -------------------------------------------------------------------
+
+  Citando apenas o ano~\citeyear{HEFEZ:ARIT}.
+
+
+-- frame:14: -------------------------------------------------------------------
+
+  Citando vrios trabalhos~\cite{HEFEZ:ARIT, MUNIZNETO:FUND-CALC}.
+
+
+-- frame:15: -------------------------------------------------------------------
+
+  Citando com o nmero da pgina~\cite[10]{HEFEZ:ARIT}
+  ou~\textcite[10]{HEFEZ:ARIT}.
+
+
+-- frame:18: -------------------------------------------------------------------
+
+\usepackage[opes de estilo]{biblatex}
+
+\addbibresource{profmat.bib}
+\addbibresource{referencias.bib}
+
+
+-- frame:18: -------------------------------------------------------------------
+
+\printbibliography
+
+
+-- frame:21: -------------------------------------------------------------------
+
+{HEFEZ:POLY-EQ-ALG,
+       = {Polinmios e Equaes Algbricas},
+      = {Abramo Hefez and Maria Lucia Torres Villela},
+  year      = {2012},
+  edition   = {1},
+  isbn      = {9788585818630},
+  pages     = {269},
+  publisher = {SBM},
+  series    = {Coleo Profmat},
+  address   = {Rio de Janeiro}
+}
+
+
+-- frame:22: -------------------------------------------------------------------
+
+{SOUZA:Bayesiana,
+    = {Probabilidade Bayesiana: Conjecturas,
+            Lgica e Aplicaes},
+   = {Carlos Roberto Amncio Sousa},
+  school = {Universidade Federal de Viosa},
+  year   = {2018}
+}
+
+
+-- frame:23: -------------------------------------------------------------------
+
+{LOPES:CELULAR,
+       = {O uso do celular em sala de aula como ferramenta
+               pedaggica: benefcios e desafios},
+      = {P. A. Lopes and C. C. C. Pimenta},
+  year      = {2017},
+  number    = {1},
+  pages     = {52-66},
+  volume    = {3},
+  address   = {Recife - PE},
+  journal   = {Revista Cadernos de Estudos e Pesquisa
+               na Educao Bsica},
+  publisher = {{CAP} {UFPE}}
+}
+
+
+-- frame:24: -------------------------------------------------------------------
+
+{WIKI:TEO-FUND-ARIT,
+  publisher = {Wikimedia},
+       = {Teorema fundamental da aritmtica},
+  booktitle = {Wikipdia: a enciclopdia livre},
+  year      = {2022},
+  url       = {http://pt.wikipedia.org/wiki/Teorema_fundamental_da
+_aritmtica},
+  urldate   = {2022-08-30},
+}
+
+
+-- frame:25: -------------------------------------------------------------------
+
+{GEOGEBRA,
+     = {{G}eo{G}ebra},
+    = {Hohenwarter, M. and Borcherds, M. and Ancsin, G.
+             and Bencze, B. and Blossier, M. and Delobelle, A.
+             and Denizet, C. and lis, J. and Fekete, .
+             and Gal, L. and Konecny, Z. and Kovacs, Z.
+             and Lizelfelner, S. and Parisse, B. and Sturr, G.},
+  year    = {2017},
+  url     = {http://www.geogebra.org},
+  urldate = {2022-08-30}
+}
+
+
+-- frame:26: -------------------------------------------------------------------
+
+{BNCC2018,
+      = {BRASIL},
+  publisher = {Ministrio da Educao},
+       = {Base Nacional Comum Curricular},
+  year      = {2018},
+  address   = {Braslia},
+}
+
+

@@ -1,0 +1,214 @@
+-- frame:3: -------------------------------------------------------------------
+
+  brick_breaker.py
+
+  jogador.py
+
+  bola.py
+
+
+-- frame:5: -------------------------------------------------------------------
+
+import pygame as pg
+
+
+-- frame:5: -------------------------------------------------------------------
+
+brick_breaker.py
+
+
+-- frame:6: -------------------------------------------------------------------
+
+class Jogador:
+
+  def __init__(self, cor, tamanho_barra, velocidade):
+    pass
+
+  def cria_jogador(self, altura):
+    pass
+
+  def move(self, x, largura):
+    pass
+
+
+-- frame:7: -------------------------------------------------------------------
+
+class Bola:
+
+  def __init__(self,
+               tamanho_bola,
+               cor,
+               velocidade_x,
+               velocidade_y
+            ):
+    pass
+
+  def cria_bola(self, largura, altura):
+    pass
+
+
+-- frame:10: -------------------------------------------------------------------
+
+# SETUP
+from jogador import Jogador
+from bola import Bola
+
+
+-- frame:13: -------------------------------------------------------------------
+
+# SETUP
+import random
+
+# FUNO
+# def cria_bola(self, largura, altura):
+  self.posicao = (
+    random.randint(0, largura-self.tamanho_bola),
+    altura*3/4
+  )
+
+
+-- frame:14: -------------------------------------------------------------------
+
+def __init__(self,
+             tamanho_bola,
+             cor,
+             velocidade_x,
+             velocidade_y
+          ):
+  self.velocidade_x = velocidade_x
+  self.velocidade_y = velocidade_y
+  self.velocidade = [ velocidade_x, -velocidade_y]
+  self.contador = 0
+
+
+-- frame:15: -------------------------------------------------------------------
+
+def move(self):
+    self.bola.x += self.velocidade[0]
+    self.bola.y += self.velocidade[1]
+
+
+-- frame:16: -------------------------------------------------------------------
+
+# SETUP
+
+bola = Bola(15, "white", 1, 1)
+
+
+-- frame:17: -------------------------------------------------------------------
+
+    # LOOP
+    # while True:
+        bola.move()
+
+
+-- frame:20: -------------------------------------------------------------------
+
+def confere_colisao_parede(self, largura, altura):
+  if self.bola.x <= self.tamanho_bola :
+        self.velocidade[0] = self.velocidade_x
+
+
+-- frame:21: -------------------------------------------------------------------
+
+    elif self.bola.x >= largura-self.tamanho_bola:
+        self.velocidade[0] = -self.velocidade_x
+
+    if  self.bola.y <= self.tamanho_bola:
+        self.velocidade[1] =self.velocidade_y
+
+
+-- frame:22: -------------------------------------------------------------------
+
+def move(self, largura, altura):
+  #...
+  self.confere_colisao_parede(largura, altura)
+
+
+-- frame:23: -------------------------------------------------------------------
+
+  # LOOP
+  # while True:
+    #...
+    bola.move(largura, altura)
+
+
+-- frame:26: -------------------------------------------------------------------
+
+   def confere_colisao_jogador(self, jogador):
+      if jogador.jogador.collidepoint(self.bola.x,
+                                      self.bola.y
+                                    ):
+         self.contador += 1
+
+         if(self.contador == 3 and
+            self.velocidade_y < 50
+          ):
+            self.contador = 0
+            self.velocidade_y += 1
+            self.velocidade_x += 1
+
+
+-- frame:27: -------------------------------------------------------------------
+
+        if(self.velocidade[0] > 0):
+            self.velocidade[0] = self.velocidade_x
+
+        elif(self.velocidade[0] < 0):
+     self.velocidade[0] =-self.velocidade_x
+
+self.velocidade[1] = -self.velocidade_y
+
+
+-- frame:28: -------------------------------------------------------------------
+
+def move(self, jogador, largura, altura):
+  #...
+  self.confere_colisao_jogador(jogador)
+
+
+-- frame:31: -------------------------------------------------------------------
+
+# SETUP
+import pygame as pg
+import random
+
+
+-- frame:32: -------------------------------------------------------------------
+
+class Bloco:
+    def __init__(self,  cor):
+        self.cor = cor
+        self.bloco = None
+    def cria_bloco(self,
+                   posicao_x,
+                   posicao_y,
+                   largura,
+                   altura):
+        self.bloco = pg.Rect(posicao_x,
+                             posicao_y,
+                             largura,
+                             altura)
+
+
+-- frame:33: -------------------------------------------------------------------
+
+# SETUP
+bloco=Bloco("green")
+bloco.cria_bloco(100, 100, 50, 20)
+
+
+-- frame:34: -------------------------------------------------------------------
+
+    # LOOP
+    # while True:
+        desenha_elementos(tela, jogador, bola, bloco)
+
+
+-- frame:35: -------------------------------------------------------------------
+
+def desenha_elementos(tela, jogador, bola, bloco):
+  #...
+  pg.draw.rect(tela, bloco.cor, bloco.bloco)
+
+
