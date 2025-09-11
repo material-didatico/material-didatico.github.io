@@ -1,6 +1,5 @@
 
-
-# Matemática na Construção Civil
+# Métodos Numéricos para o Ensino Médio
 
 [![Métodos Numéricos](capa_met_num_medio.jpg){ width="350" }](action/Metodos_Numericos_e_Python_no_Ensino_Medio.pdf)
 

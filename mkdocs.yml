@@ -1,5 +1,5 @@
 
-site_name: Luis A. D'Afonseca - Material Didático
+site_name: Material Didático
 site_url: https://material-didatico.github.io
 
 nav:
@@ -11,11 +11,11 @@ nav:
     - Administração:       pages/administracao/index.md
     - Cálculo IV:          pages/calculo_4/index.md
   - Ensino Básico:
-    - Infinito:         pages/infinito/index.md
-    - Construção Civil: pages/civil/index.md
-    - Métodos Numéricos para o Ensino Médio: pages/met_num_medio/index.md
-    - Investimentos:    pages/investimentos/index.md
-    - Zip Math:         pages/zip_math/index.md
+    - Infinito:          pages/infinito/index.md
+    - Construção Civil:  pages/civil/index.md
+    - Métodos Numéricos: pages/met_num_medio/index.md
+    - Investimentos:     pages/investimentos/index.md
+    - Zip Math:          pages/zip_math/index.md
   - Profmat:
     - Nice Booklet: pages/booklet/index.md
   - Outros:
