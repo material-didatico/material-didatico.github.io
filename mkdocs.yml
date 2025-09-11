@@ -3,7 +3,7 @@ site_name: Material Didático
 site_url: https://material-didatico.github.io
 
 nav:
-  - Home: index.md
+  - Início: index.md
   - Graduação:
     - Cálculo de Funções de Várias Vaiáveis I: pages/cfvv1/index.md
     - Integração e Séries: pages/is/index.md
