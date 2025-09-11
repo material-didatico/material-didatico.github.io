@@ -1,0 +1,1110 @@
+
+<!doctype html>
+<html lang="pt" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+        <link rel="canonical" href="https://material-didatico.github.io/pages/latex/latex_instalacao/">
+      
+      
+      
+      
+      <link rel="icon" href="../../../img/favicon.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.6.19">
+    
+    
+      
+        <title>Como Instalar o LaTeX - Material Didático</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../../assets/stylesheets/main.7e37652d.min.css">
+      
+        
+        <link rel="stylesheet" href="../../../assets/stylesheets/palette.06af60db.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:300,300i,400,400i,700,700i%7CFira+Code:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Lato";--md-code-font:"Fira Code"}</style>
+      
+    
+    
+      <link rel="stylesheet" href="../../../stylesheets/extras.css">
+    
+    <script>__md_scope=new URL("../../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+    
+  </head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="indigo" data-md-color-accent="indigo">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#como-instalar-o-latex" class="md-skip">
+          Pular para conteúdo
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Cabeçalho">
+    <a href="../../.." title="Material Didático" class="md-header__button md-logo" aria-label="Material Didático" data-md-component="logo">
+      
+  <img src="../../../img/favicon.png" alt="logo">
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Material Didático
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Como Instalar o LaTeX
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+        <form class="md-header__option" data-md-component="palette">
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="(prefers-color-scheme: light)" data-md-color-scheme="default" data-md-color-primary="indigo" data-md-color-accent="indigo"  aria-label="Switch to dark mode"  type="radio" name="__palette" id="__palette_0">
+    
+      <label class="md-header__button md-icon" title="Switch to dark mode" for="__palette_1" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a4 4 0 0 0-4 4 4 4 0 0 0 4 4 4 4 0 0 0 4-4 4 4 0 0 0-4-4m0 10a6 6 0 0 1-6-6 6 6 0 0 1 6-6 6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12z"/></svg>
+      </label>
+    
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="(prefers-color-scheme: dark)" data-md-color-scheme="slate" data-md-color-primary="blue-grey" data-md-color-accent="deep-orange"  aria-label="Switch to light mode"  type="radio" name="__palette" id="__palette_1">
+    
+      <label class="md-header__button md-icon" title="Switch to light mode" for="__palette_0" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 18c-.89 0-1.74-.2-2.5-.55C11.56 16.5 13 14.42 13 12s-1.44-4.5-3.5-5.45C10.26 6.2 11.11 6 12 6a6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12z"/></svg>
+      </label>
+    
+  
+</form>
+      
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Buscar" placeholder="Buscar" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Pesquisar">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Limpar" aria-label="Limpar" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Inicializando busca
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+
+<nav class="md-nav md-nav--primary" aria-label="Navegação" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../../.." title="Material Didático" class="md-nav__button md-logo" aria-label="Material Didático" data-md-component="logo">
+      
+  <img src="../../../img/favicon.png" alt="logo">
+
+    </a>
+    Material Didático
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../.." class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Início
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Graduação
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2">
+            <span class="md-nav__icon md-icon"></span>
+            Graduação
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../cfvv1/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Cálculo de Funções de Várias Vaiáveis I
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../is/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Integração e Séries
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../edp/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    EDPs
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../administracao/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Administração
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../calculo_4/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Cálculo IV
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" >
+        
+          
+          <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Ensino Básico
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3">
+            <span class="md-nav__icon md-icon"></span>
+            Ensino Básico
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../infinito/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Infinito
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../civil/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Construção Civil
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../met_num_medio/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Métodos Numéricos
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../investimentos/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Investimentos
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../zip_math/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Zip Math
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4" >
+        
+          
+          <label class="md-nav__link" for="__nav_4" id="__nav_4_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Profmat
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4">
+            <span class="md-nav__icon md-icon"></span>
+            Profmat
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../booklet/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Nice Booklet
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5" >
+        
+          
+          <label class="md-nav__link" for="__nav_5" id="__nav_5_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Outros
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_5_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_5">
+            <span class="md-nav__icon md-icon"></span>
+            Outros
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../latex/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    LaTeX
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../python/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Python
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Índice">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Índice
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#instalando-o-miktex" class="md-nav__link">
+    <span class="md-ellipsis">
+      Instalando o MiKTeX
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Instalando o MiKTeX">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#instalacao-basica-do-miktex" class="md-nav__link">
+    <span class="md-ellipsis">
+      Instalação Básica do MiKTeX
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#instalacao-completa-do-miktex" class="md-nav__link">
+    <span class="md-ellipsis">
+      Instalação Completa do MiKTeX
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#instalando-o-texstudio" class="md-nav__link">
+    <span class="md-ellipsis">
+      Instalando o TeXstudio
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Instalando o TeXstudio">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#configuracao-do-texstudio" class="md-nav__link">
+    <span class="md-ellipsis">
+      Configuração do TeXstudio
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Configuração do TeXstudio">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#mudar-a-interface-para-o-portugues" class="md-nav__link">
+    <span class="md-ellipsis">
+      Mudar a interface para o português:
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#para-usar-a-bibliografia-corretamente" class="md-nav__link">
+    <span class="md-ellipsis">
+      Para usar a bibliografia corretamente
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#testando-a-instalacao-do-latex" class="md-nav__link">
+    <span class="md-ellipsis">
+      Testando a Instalação do LaTeX
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#instalando-o-jabref" class="md-nav__link">
+    <span class="md-ellipsis">
+      Instalando o JabRef
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+
+<h1 id="como-instalar-o-latex">Como Instalar o LaTeX</h1>
+<p>Caso tenha optado por instalar o LaTeX em seu computador, você precisa seguir
+as instruções dessa seção. Note que, por questões históricas, o LaTeX é
+diferente da maioria dos programas Windows. O LaTeX foi criado em 1983 e é
+baseado no TeX que foi criado em 1978, enquanto o Windows 95 só foi lançado em
+1995.
+Dessa forma, o LaTeX é muito anterior a definição dos padrões que os
+programas Windows seguem atualmente. A principal consequência disso é que
+o LaTeX não possui uma interface gráfica. Dessa forma, para usarmos o
+LaTeX no Windows, precisamos instalar dois programas:</p>
+<ol>
+<li><strong>MiKTeX</strong> que fornece o LaTeX propriamente dito e</li>
+<li>uma interface gráfica para usá-lo.</li>
+</ol>
+<p>Por comodidade podemos também instalar um programa para gerenciar a
+bibliografia. A seguir explicamos passo a passo como instalar cada um desses
+programas.</p>
+<p>Existem diversas interfaces gráficas para o LaTeX disponíveis, cada um pode
+usar a que preferir, essa escolha não influencia no resultado gerado. O único
+cuidado é escolher uma interface que realmente use o LaTeX e não alguma das
+suas variações. Caso alguém tenha curiosidade, essa página da Wikipédia lista
+os editores para LaTeX mais comuns: Comparação de Editores para LaTeX</p>
+<p>Qualquer editor que edite o código (source) e tenha suporte para unicode (utf8)
+pode ser usado. Aqui mostro como instalar o TeXstudio, pois ele é gratuito, é
+multiplataforma e tem disponíveis as funcionalidades mais importantes.</p>
+<h2 id="instalando-o-miktex">Instalando o MiKTeX</h2>
+<p>MiKTeX é o pacote que contem o LaTeX e vários outros programas auxiliares
+necessários. Como o conjunto completo de todas as funcionalidades do LaTeX é
+grande, o site oferece duas opções de instalação, a básica e a completa. A
+seguir mostramos passo a passo as duas formas de instalar o MiKTeX.</p>
+<p>A instalação completa é demorada e ocupa mais espaço em disco, pois precisa
+baixar muitos arquivos, mas fornece todas as funcionalidades do LaTeX, sem
+restrições. A instalação básica é mais simples e rápida, mas vamos precisar
+instalar posteriormente alguns pacotes extras necessários. Cada um pode
+escolher a forma que preferir, mas prestem muita atenção aos detalhes.</p>
+<p>Quando for instalar sempre escolha a última versão
+disponível.</p>
+<h3 id="instalacao-basica-do-miktex">Instalação Básica do MiKTeX</h3>
+<p>A instalação básica do MiKTeX é inicialmente mais simples, porém no futuro será
+necessário instalar cada pacote faltante quando for necessário utilizá-los.</p>
+<p><strong>Instalando o LaTeX</strong></p>
+<ol>
+<li>Entre na página de downloads do MiKTeX: <a href="http://miktex.org/download">http://miktex.org/download</a>;</li>
+<li>Clique em download para baixar o arquivo <code>basic-miktex-*.exe</code> (o * indica a versão atual);</li>
+<li>Rode o programa <code>basic-miktex-*.exe</code>;</li>
+<li>Aceite os termos da copying conditions;</li>
+<li>Selecione instalar para todos os usuários do sistema;</li>
+<li>Escolha onde instalar o MiKTeX. Recomendo manter o local sugerido;</li>
+<li>Escolha as opções solicitadas, recomendo manter as sugestões A4 para o</li>
+<li>tipo de papel e Ask me First para instalar os pacotes faltantes;</li>
+<li>Clique em start para iniciar a instalação;</li>
+<li>Autorize que o programa faça alterações no sistema;</li>
+<li>Aguarde o final da instalação;</li>
+<li>Permita que o MiKTeX busque por atualizações na internet;</li>
+<li>Se desejar, desabilite a opção <em>Tell me more</em>;</li>
+<li>Conclua a instalação clicando em Close.</li>
+<li>Siga as instruções para instalar o TeXstudio para completar a
+   instalação dos pacotes faltantes.</li>
+</ol>
+<h3 id="instalacao-completa-do-miktex">Instalação Completa do MiKTeX</h3>
+<p>ATENÇÃO: A versão completa do MiKTeX é chamada Net Installer e não está na
+página inicial de download da página do MiKTeX.</p>
+<p><strong>Download do instalador</strong></p>
+<ol>
+<li>Entre na página de downloads do MiKTeX: <a href="http://miktex.org/download">http://miktex.org/download</a>;</li>
+<li><strong>NÃO</strong> clique no botão de <code>download</code>;</li>
+<li>Selecione a aba <code>All Downloads</code>;</li>
+<li>Selecione a opção <code>Net Installer</code>, escolha 32 ou 64 bits de acordo com
+   seu computador;</li>
+<li>Clique em download para baixar o arquivo <code>setup-*.exe</code>.</li>
+</ol>
+<p><strong>Baixando o LaTeX</strong></p>
+<ol>
+<li>Execute o programa baixado no item anterior;</li>
+<li>Permita que o programa faça alterações no seu computador;</li>
+<li>Aceite as condições de uso;</li>
+<li>Selecione Download MiKTeX e Avance;</li>
+<li>Selecione Complete MiKTeX e Avance;</li>
+<li>Escolha de qual repositório fazer o download, pode ser qualquer
+   endereço;</li>
+<li>Escolha onde salvar o arquivo, pode ser no endereço sugerido pelo
+   programa;</li>
+<li>Avance;</li>
+<li>Confirme o download clicando Start;</li>
+<li>Aguarde o download. Vai demorar um pouco, pois você está baixando o
+   LaTeX com todos seus pacotes;</li>
+<li>Quando o download terminar, finalize o programa clicando em avançar.</li>
+</ol>
+<p><strong>Instalação do LaTeX</strong></p>
+<ol>
+<li>Execute o mesmo programa usado para baixar o LaTeX;</li>
+<li>Aceite novamente os termos de uso;</li>
+<li>Selecione Install MiKTeX (essa opção já deve estar selecionada por
+   padrão);</li>
+<li>Selecione Complete MiKTeX (essa opção já deve estar selecionada por
+   padrão);</li>
+<li>Selecione Anyone who uses this computer (assim todos os usuários do
+   computador podem usar o LaTeX);</li>
+<li>Selecione o local onde o MiKTeX foi baixado, isto é, a pasta onde o
+   download foi feito. O programa já deve oferecer a opção correta como
+   padrão;</li>
+<li>Selecione onde o LaTeX será instalado (recomendo manter a pasta
+   sugerida pelo programa);</li>
+<li>Selecione o formato do papel e como os pacotes faltantes devem ser
+   instalados (recomendo manter os padrões A4 e Ask me first);</li>
+<li>Confirme a instalação;</li>
+<li>Aguarde a instalação, ela vai levar algum tempo, então, tenha
+   paciência.</li>
+</ol>
+<h2 id="instalando-o-texstudio">Instalando o TeXstudio</h2>
+<p>Nesse momento você tem o LaTeX instalado assim como o editor TeXworks. Esse é
+um editor básico, mas pode ser usado para editar textos em LaTeX. Uma
+alternativa com mais opções é o TeXstudio. Caso queira instalar o TeXstudio
+siga os passos abaixo. Se o TeXstudio for instalado, o TeXworks pode ser
+desinstalado, sem problemas.</p>
+<ol>
+<li>Entre na página do TeXstudio: <a href="http://www.texstudio.org">http://www.texstudio.org</a>;</li>
+<li>No menu a esquerda, clique em <code>Download</code>;</li>
+<li>Baixe o programa, clicando no link download associado a versão adequada
+   para seu Windows;</li>
+<li>Execute o programa baixado: <code>texstudio-*.exe</code>;</li>
+<li>Autorize o programa a fazer alterações no seu computador;</li>
+<li>Selecione o local de destino, recomendo deixar a opção padrão;</li>
+<li>Feche o instalador.</li>
+</ol>
+<h3 id="configuracao-do-texstudio">Configuração do TeXstudio</h3>
+<h4 id="mudar-a-interface-para-o-portugues">Mudar a interface para o português:</h4>
+<ol>
+<li>No menu selecione: Options e depois Configure TeXstudio;</li>
+<li>No quadro de diálogo que será aberto, selecione a aba General;</li>
+<li>Nessa aba encontre o campo Language e selecione <code>PT_BR</code>;</li>
+<li>Confirme clicando em OK.</li>
+</ol>
+<h4 id="para-usar-a-bibliografia-corretamente">Para usar a bibliografia corretamente</h4>
+<ol>
+<li>No menu selecione Opções e depois Configurar TeXstudio;</li>
+<li>No quadro de diálogo que será aberto, selecione a aba Compilar;</li>
+<li>Nessa aba encontre o campo Ferramenta Padrão de Bibliografia e
+   selecione Biber;</li>
+<li>Confirme clicando em OK.</li>
+</ol>
+<h2 id="testando-a-instalacao-do-latex">Testando a Instalação do LaTeX</h2>
+<p>Tendo instalado o TeXstudio, estamos prontos para testar o funcionamento do
+LaTeX, compilando o exemplo com o modelo da dissertação. Caso ainda não tenha
+baixado o modelo, baixe-o de um desses links:</p>
+<blockquote>
+<p><a href="https://drive.google.com/file/d/1mUtDDYPk7upp-BH1NBOOUNEfff8PJyWy/view?usp=sharing">Modelo de Dissertação para o Profmat no Cefet-MG</a></p>
+<p><a href="https://drive.google.com/file/d/1wgMJzBQPrzUlgMvTXmVcA9YA-o5rYSKJ/view?usp=sharing">Modelo de Dissertação para o Profmat na UFV-Florestal</a></p>
+</blockquote>
+<p>Quem fez a instalação completa do MiKTeX já possui todos os pacotes necessários
+e a compilação deve ser concluída sem nenhum erro. Quem fez a instalação básica
+vai ser solicitado a instalar os pacotes faltantes. Nesse caso, verifique que
+está conectado na internet antes de iniciar o teste para poder baixar os
+pacotes quando solicitado.</p>
+<ol>
+<li>Rode o TeXstudio;</li>
+<li>Abra o arquivo <code>dissertacao.tex</code> distribuído com a Classe;</li>
+<li>Clique no botão verde igual ao botão de avanço rápido;</li>
+<li>Se todos os pacotes necessários estiverem instalados, o TeXstudio deve
+   apresentar o PDF com o resultado sem erro após alguns instantes;</li>
+</ol>
+<p>Se estiverem faltando pacotes, o MiKTeX vai solicitar permissão para
+instalá-los, nesse caso, no quadro de diálogo do solicitando a instalação do
+primeiro pacote, desselecione a opção Always show this before installing
+packages para ele instalar todos os pacotes de uma única vez. Se essa opção não
+for desselecionada, ele vai pedir permissão para instalar cada um dos
+aproximadamente 30 pacotes faltantes;</p>
+<ol>
+<li>Clique em Install para iniciar a instalação;</li>
+<li>Autorize que o MiKTeX a fazer alterações no sistema;</li>
+<li>Aguarde a instalação dos pacotes necessários;</li>
+<li>Após a instalação, o TeXstudio deve mostrar o PDF como resultado;</li>
+<li>A instalação dos pacotes vai ser feita uma única vez.</li>
+</ol>
+<p>Algumas vezes, na primeira compilação, o TeXstudio não encontra corretamente a
+bibliografia. Para garantir que a bibliografia está correta, verifique se ela
+aparece no final da dissertação. Caso não apareça, siga os seguintes passos:</p>
+<ol>
+<li>No menu do TeXstudio, selecione: Ferramentas e Bibliografia;</li>
+<li>O TeXstudio vai rodar o programa que constrói a bibliografia;</li>
+<li>Recompile o texto clicando novamente no botão de “avanço rápido”.</li>
+</ol>
+<h2 id="instalando-o-jabref">Instalando o JabRef</h2>
+<p>O último programa a ser instalado é o JabRef. Esse programa facilita a criação
+de um banco de dados com informações sobre a bibliografia para ser usado pelo
+BibLaTeX. Para instalar esse programa siga os passos:</p>
+<ol>
+<li>Abra a página <a href="http://www.fosshub.com/JabRef.html">http://www.fosshub.com/JabRef.html</a> ;</li>
+<li>Clique para baixar a versão do JabRef para Windows <code>JabRef-*</code>;</li>
+<li>Execute o programa baixado;</li>
+<li>Permita que o programa faça alterações no sistema.</li>
+</ol>
+<p>Divirta-se com o LaTeX</p>
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+      </main>
+      
+          <div style="text-align: center; font-size: small; margin-top: 1em;">
+    <p>
+      <a rel="license" href="https://creativecommons.org/licenses/by/4.0/">
+        <img alt="Creative Commons License" style="border-width:0"
+             src="https://i.creativecommons.org/l/by/4.0/88x31.png" />
+      </a>
+      &nbsp;&nbsp;
+      Este material está disponível sob
+      <a rel="license" href="https://creativecommons.org/licenses/by/4.0/">
+        Licença Creative Commons Atribuição-CompartilhaIgual 4.0 Internacional (CC BY-SA 4.0)
+      </a>
+    </p>
+  </div>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      <script id="__config" type="application/json">{"base": "../../..", "features": ["navigation.instant"], "search": "../../../assets/javascripts/workers/search.973d3a69.min.js", "tags": null, "translations": {"clipboard.copied": "Copiado para \u00e1rea de transfer\u00eancia", "clipboard.copy": "Copiar para \u00e1rea de transfer\u00eancia", "search.result.more.one": "mais 1 nesta p\u00e1gina", "search.result.more.other": "# mais nesta p\u00e1gina", "search.result.none": "Nenhum documento encontrado", "search.result.one": "1 documento encontrado", "search.result.other": "# documentos encontrados", "search.result.placeholder": "Digite para iniciar a busca", "search.result.term.missing": "Ausente", "select.version": "Selecione a vers\u00e3o"}, "version": null}</script>
+    
+    
+      <script src="../../../assets/javascripts/bundle.92b07e13.min.js"></script>
+      
+    
+  </body>
+</html>
