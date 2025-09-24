@@ -29,7 +29,8 @@ Materiais para a disciplina Cálculo de Funções de Várias Variáveis I
 
     ??? abstract "E Limites continuidade"
         - [[PDF]](classes/E-Limites_continuidade/E-01-Limites.pdf) E 01 Limites
-        - [[PDF]](classes/E-Limites_continuidade/E-02-Continuidade.pdf) E 02 Continuidade
+        - [[PDF]](classes/E-Limites_continuidade/E-02-Inexistencia.pdf) E 02 Inexistencia
+        - [[PDF]](classes/E-Limites_continuidade/E-03-Continuidade.pdf) E 03 Continuidade
 
     ??? abstract "F Derivadas"
         - [[PDF]](classes/F-Derivadas/F-01-Derivadas_parciais.pdf) F 01 Derivadas parciais
