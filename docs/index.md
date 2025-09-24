@@ -2,7 +2,7 @@
 
 ![Luis](img/foto.jpg)
 
-Prof. Dr. Luis A. D'Afonseca
+Prof. Dr. Luis A. D'Afonseca - [luis.dafonseca@cefetmg.br](luis.dafonseca@cefetmg.br)
 
 [Departamento de Matemática](https://www.dm.cefetmg.br) –
 [PROFMAT](https://www.profmat.cefetmg.br) –

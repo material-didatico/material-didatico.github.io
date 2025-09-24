@@ -99,3 +99,9 @@ Materiais para a disciplina Cálculo de Funções de Várias Variáveis I
         - [[PDF]](exams/2025-1/CFVVI_2025-1_prova_04_sub_T7.pdf) CFVVI 2025 1 prova 04 sub T7
         - [[PDF]](exams/2025-1/CFVVI_2025-1_prova_05-exame_T2.pdf) CFVVI 2025 1 prova 05 exame T2
         - [[PDF]](exams/2025-1/CFVVI_2025-1_prova_05-exame_T4.pdf) CFVVI 2025 1 prova 05 exame T4
+
+    ??? abstract "2025 2"
+        - [[PDF]](exams/2025-2/CFVVI_2025-2_prova_01_T2_A.pdf) CFVVI 2025 2 prova 01 T2 A
+        - [[PDF]](exams/2025-2/CFVVI_2025-2_prova_01_T2_B.pdf) CFVVI 2025 2 prova 01 T2 B
+        - [[PDF]](exams/2025-2/CFVVI_2025-2_prova_01_T7_A.pdf) CFVVI 2025 2 prova 01 T7 A
+        - [[PDF]](exams/2025-2/CFVVI_2025-2_prova_01_T7_B.pdf) CFVVI 2025 2 prova 01 T7 B

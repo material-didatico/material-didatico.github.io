@@ -23,14 +23,14 @@ Nessa página explicamos como ter acesso ao LaTeX e ao Modelo de Dissertação.
 ### Usando o LaTeX online
 
 As vantagens de usar o LaTeX online são:
-  - não precisa instalar o LaTeX,
-  - editar o seu trabalho de diferentes computadores e
-  - compartilhar o texto online com outras pessoas.
+- não precisa instalar o LaTeX,
+- editar o seu trabalho de diferentes computadores e
+- compartilhar o texto online com outras pessoas.
 
 Desvantagens:
-  - só poderá editar sua dissertação se estiver conectado na internet e
-  - existe um limite no tempo de compilação na conta gratuita,
-    que pode impedir a geração de textos maiores.
+- só poderá editar sua dissertação se estiver conectado na internet e
+- existe um limite no tempo de compilação na conta gratuita,
+  que pode impedir a geração de textos maiores.
 
 Para utilizar o LaTeX online é necessário que você se registre no
 Overleaf (<https://pt.overleaf.com>).
@@ -40,11 +40,11 @@ porém, para arquivos maiores a versão paga pode ser necessária.
 ### Instalando o LaTeX em seu Computador
 
 A vantagem da instalação do LaTeX em seu computador é:
-  - instalação totalmente gratuita e
-  - poder utilizá-lo sempre que estiver com seu computador.
+- instalação totalmente gratuita e
+- poder utilizá-lo sempre que estiver com seu computador.
 
 A desvantagem é:
-  - ter que instalar alguns programas.
+- ter que instalar alguns programas.
 
 !!! abstract "Instalando o LaTeX"
     Para instalar o LaTeX siga as instruções [deste link](latex_instalacao.md)
