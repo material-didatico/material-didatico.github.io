@@ -1,0 +1,172 @@
+-- frame:4: -------------------------------------------------------------------
+
+# SETUP
+import pygame as pg
+
+pg.init()
+
+largura = 800
+altura  = 800
+tela = pg.display.set_mode((largura, altura))
+
+
+-- frame:5: -------------------------------------------------------------------
+
+# LOOP PRINCIPAL
+while True:
+  for event in pg.event.get():
+    if event.type == pg.QUIT:
+      pg.quit()
+      exit()
+  pg.display.update()
+
+
+-- frame:8: -------------------------------------------------------------------
+
+# LOOP PRINCIPAL
+#...
+  jogador = pg.Rect(
+    tela.get_width()/3,
+    largura-50, 200, 15
+  )
+  pg.draw.rect(tela, 'blue', jogador)
+
+
+-- frame:12: -------------------------------------------------------------------
+
+def inicia_jogo():
+  # Coloque todo o cdigo do jogo criado AT ENTO aqui
+
+inicia_jogo()
+
+
+-- frame:14: -------------------------------------------------------------------
+
+class Jogador:
+  def __init__(self, cor, tamanho_barra, velocidade):
+    self.cor = cor
+    self.velocidade = velocidade
+    self.tamanho_barra = tamanho_barra
+    self.jogador = None
+
+  def cria_jogador(self, altura):
+    self.jogador = pg.Rect(350, altura-50, self.tamanho_barra, 15)
+
+
+-- frame:15: -------------------------------------------------------------------
+
+# Na funo principal
+# SETUP
+#...
+jogador = Jogador('blue', 200, 13)
+jogador.cria_jogador(altura)
+
+
+-- frame:16: -------------------------------------------------------------------
+
+# Na funo principal
+# LOOP PRINCIPAL
+#...
+  pg.draw.rect(tela, jogador.cor, jogador.jogador)
+
+
+-- frame:19: -------------------------------------------------------------------
+
+def move_jogador(jogador, largura):
+  keys = pg.key.get_pressed()
+
+  if keys[pg.K_LEFT]:
+    jogador.move(-jogador.velocidade, largura)
+
+  if keys[pg.K_RIGHT]:
+    jogador.move(jogador.velocidade, largura)
+
+
+
+-- frame:20: -------------------------------------------------------------------
+
+# DENTRO DA CLASSE DO JOGADOR
+def move(self, x, largura):
+  self.jogador.x += x
+
+  if self.jogador.x < 0:
+    self.jogador.x = 0
+
+  elif self.jogador.x > largura - self.tamanho_barra:
+    self.jogador.x = largura-self.tamanho_barra
+
+
+-- frame:21: -------------------------------------------------------------------
+
+# LOOP PRINCIPAL
+  move_jogador(jogador, largura)
+  tela.fill('black')
+
+
+-- frame:24: -------------------------------------------------------------------
+
+def desenha_elementos(tela, jogador):
+
+  tela.fill('black')
+
+  pg.draw.rect(tela, jogador.cor, jogador.jogador)
+
+  pg.display.update()
+
+
+-- frame:25: -------------------------------------------------------------------
+
+# SETUP
+  clock = pg.time.Clock()
+
+
+-- frame:26: -------------------------------------------------------------------
+
+# LOOP PRINCIPAL
+  desenha_elementos(tela, jogador)
+  move_jogador(jogador, largura)
+  clock.tick(60)
+
+
+-- frame:29: -------------------------------------------------------------------
+
+class Bola:
+
+  def __init__(self, tamanho_bola, cor):
+    self.tamanho_bola = tamanho_bola
+    self.cor = cor
+    self.bola = None
+    self.posicao = (0,0)
+
+
+-- frame:30: -------------------------------------------------------------------
+
+    def cria_bola(self, largura, altura):
+      self.posicao = (400, 400)
+      self.bola = pg.Rect(
+        self.posicao[0],
+        self.posicao[1],
+        self.tamanho_bola,
+        self.tamanho_bola
+      )
+
+
+-- frame:31: -------------------------------------------------------------------
+
+# SETUP
+  bola=Bola(15, 'white')
+  bola.cria_bola(largura, altura)
+
+
+-- frame:32: -------------------------------------------------------------------
+
+# LOOP PRINCIPAL
+   desenha_elementos(tela, jogador, bola)
+
+
+-- frame:33: -------------------------------------------------------------------
+
+def desenha_elementos(tela, jogador, bola):
+  pg.draw.circle(tela, bola.cor, bola.bola.center, bola.tamanho_bola)
+
+
