@@ -1,4 +1,5 @@
 # Introdução ao Python
+Última atualização: 10/10/2025
 
 ??? Apostila
     [[PDF]](Python_Sala_Aula.pdf) Python Sala Aula
@@ -9,14 +10,14 @@
     - [[PDF]](sala/Python-3-Funcoes.pdf) [[LST]](sala/Python-3-Funcoes.lst) Python 3 Funcoes
     - [[PDF]](sala/Python-4-Estruturas.pdf) [[LST]](sala/Python-4-Estruturas.lst) Python 4 Estruturas
     - [[PDF]](sala/Python-5-Controle.pdf) [[LST]](sala/Python-5-Controle.lst) Python 5 Controle
-    - [[PDF]](sala/Python-6-Objetos.pdf) Python 6 Objetos
+    - [[PDF]](sala/Python-6-Objetos.pdf) [[LST]](sala/Python-6-Objetos.lst) Python 6 Objetos
     - [[PDF]](sala/Python-7-NumPy.pdf) [[LST]](sala/Python-7-NumPy.lst) Python 7 NumPy
     - [[PDF]](sala/Python-8-SymPy.pdf) [[LST]](sala/Python-8-SymPy.lst) Python 8 SymPy
 
 ??? "Python para Todos"
 
     ??? abstract "1 intro"
-        - [[PDF]](todos/1-intro/1-Introducao_Python-Progamacao.pdf) 1 Introducao Python Progamacao
+        - [[PDF]](todos/1-intro/1-Introducao_Python-Progamacao.pdf) [[LST]](todos/1-intro/1-Introducao_Python-Progamacao.lst) 1 Introducao Python Progamacao
         - [[PDF]](todos/1-intro/2-Introducao_Python-Python.pdf) [[LST]](todos/1-intro/2-Introducao_Python-Python.lst) 2 Introducao Python Python
         - [[PDF]](todos/1-intro/3-Introducao_Python-Funcoes.pdf) [[LST]](todos/1-intro/3-Introducao_Python-Funcoes.lst) 3 Introducao Python Funcoes
         - [[PDF]](todos/1-intro/4-Introducao_Python-Condicional.pdf) [[LST]](todos/1-intro/4-Introducao_Python-Condicional.lst) 4 Introducao Python Condicional
@@ -25,8 +26,8 @@
         - [[PDF]](todos/1-intro/7-Introducao_Python-Objetos.pdf) 7 Introducao Python Objetos
 
     ??? abstract "2 math"
-        - [[PDF]](todos/2-math/1-Math_Python-NumPy.pdf) 1 Math Python NumPy
-        - [[PDF]](todos/2-math/2-Math_Python-SymPy.pdf) 2 Math Python SymPy
+        - [[PDF]](todos/2-math/1-Math_Python-NumPy.pdf) [[LST]](todos/2-math/1-Math_Python-NumPy.lst) 1 Math Python NumPy
+        - [[PDF]](todos/2-math/2-Math_Python-SymPy.pdf) [[LST]](todos/2-math/2-Math_Python-SymPy.lst) 2 Math Python SymPy
 
     ??? abstract "3 pygame"
         - [[PDF]](todos/3-pygame/1-Pygame-Introducao.pdf) [[LST]](todos/3-pygame/1-Pygame-Introducao.lst) 1 Pygame Introducao
