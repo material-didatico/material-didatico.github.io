@@ -1,6 +1,9 @@
 # Materiais de CFVVI
 
+Última atualização: 2025-10-23 21:07:17
+
 Materiais para a disciplina Cálculo de Funções de Várias Variáveis I
+
 
 ??? "Apresentações das aulas"
 
@@ -49,7 +52,8 @@ Materiais para a disciplina Cálculo de Funções de Várias Variáveis I
         - [[PDF]](classes/I-Plano_tangente/I-01-Diferenciabilidade.pdf) I 01 Diferenciabilidade
         - [[PDF]](classes/I-Plano_tangente/I-02-Plano_tangente.pdf) I 02 Plano tangente
         - [[PDF]](classes/I-Plano_tangente/I-03-Linearizacao.pdf) I 03 Linearizacao
-        - [[PDF]](classes/I-Plano_tangente/I-04-Diferenciais.pdf) I 04 Diferenciais
+        - [[PDF]](classes/I-Plano_tangente/I-04-Linearizacao-erro.pdf) I 04 Linearizacao erro
+        - [[PDF]](classes/I-Plano_tangente/I-05-Diferenciais.pdf) I 05 Diferenciais
 
     ??? abstract "J Extremos"
         - [[PDF]](classes/J-Extremos/J-01-Maximos_minimos.pdf) J 01 Maximos minimos
