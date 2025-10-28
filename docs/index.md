@@ -1,12 +1,6 @@
 # Material Didático
 
-![Luis](img/foto.jpg)
-
-Prof. Dr. Luis A. D'Afonseca - [luis.dafonseca@cefetmg.br](luis.dafonseca@cefetmg.br)
-
-[Departamento de Matemática](https://www.dm.cefetmg.br) –
-[PROFMAT](https://www.profmat.cefetmg.br) –
-[CEFET-MG](https://www.cefetmg.br/home)
+[Prof. Dr. Luis A. D'Afonseca](pages/luis/index.md)
 
 ## Disciplinas de Graduação
 
@@ -39,3 +33,8 @@ Estes são produtos de algumas dissertações de mestrado que orientei ou coorie
 
 - [Introdução ao LaTeX](pages/latex/latex.md)   – Curso introdutório de LaTeX e passo a passo para sua instalação
 - [Introdução ao Python](pages/python/index.md) – Curso introdutório da linguagem de programação Python
+
+## Tutoriais
+
+- [Git e GitHub](pages/tutoriais/github.md) - Comandos básicos para utilizar o Git e Github
+- [Markdown](pages/tutoriais/markdown.md) - Comandos básicos do Markdown

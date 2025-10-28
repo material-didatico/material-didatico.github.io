@@ -21,12 +21,14 @@ nav:
   - Outros:
     - LaTeX:  pages/latex/latex.md
     - Python: pages/python/index.md
-
+  - Tutoriais:
+    - Git e GitHub: pages/tutoriais/github.md
+    - Markdown:     pages/tutoriais/markdown.md
 theme:
-  name: material
-  language: pt-BR
-  logo: img/favicon.png
-  favicon: img/favicon.png
+  name:       material
+  language:   pt-BR
+  logo:       imag/favicon.png
+  favicon:    imga/favicon.png
   custom_dir: docs/overrides
 
   features:
@@ -59,6 +61,11 @@ markdown_extensions:
   - pymdownx.superfences
   - pymdownx.tabbed:
       alternate_style: true
+  - pymdownx.arithmatex:
+      generic: true # Enables dollar delimiters for inline math
+
+extra_javascript:
+  - https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.4/MathJax.js?config=TeX-AMS-MML_HTMLorMML
 
 extra_css:
   - stylesheets/extras.css

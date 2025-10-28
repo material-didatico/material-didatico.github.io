@@ -17,7 +17,7 @@
 ??? "Python para Todos"
 
     ??? abstract "1 intro"
-        - [[PDF]](todos/1-intro/1-Introducao_Python-Progamacao.pdf) [[LST]](todos/1-intro/1-Introducao_Python-Progamacao.lst) 1 Introducao Python Progamacao
+        - [[PDF]](todos/1-intro/1-Introducao_Python-Progamacao.pdf) 1 Introducao Python Progamacao
         - [[PDF]](todos/1-intro/2-Introducao_Python-Python.pdf) [[LST]](todos/1-intro/2-Introducao_Python-Python.lst) 2 Introducao Python Python
         - [[PDF]](todos/1-intro/3-Introducao_Python-Funcoes.pdf) [[LST]](todos/1-intro/3-Introducao_Python-Funcoes.lst) 3 Introducao Python Funcoes
         - [[PDF]](todos/1-intro/4-Introducao_Python-Condicional.pdf) [[LST]](todos/1-intro/4-Introducao_Python-Condicional.lst) 4 Introducao Python Condicional
