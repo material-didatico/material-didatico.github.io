@@ -18,17 +18,21 @@ nav:
     - Zip Math:          pages/zip_math/index.md
   - Profmat:
     - Nice Booklet: pages/booklet/index.md
+    - CorretorENA:  https://luis-dafonseca.github.io/CorretorENA
+    - Curadoria:    https://mathtech-cefet-mg.github.io/Curadoria_Profmat
+
   - Outros:
     - LaTeX:  pages/latex/latex.md
     - Python: pages/python/index.md
   - Tutoriais:
     - Git e GitHub: pages/tutoriais/github.md
     - Markdown:     pages/tutoriais/markdown.md
+
 theme:
   name:       material
   language:   pt-BR
   logo:       imag/favicon.png
-  favicon:    imga/favicon.png
+  favicon:    imag/favicon.png
   custom_dir: docs/overrides
 
   features:
@@ -69,3 +73,8 @@ extra_javascript:
 
 extra_css:
   - stylesheets/extras.css
+
+extra:
+  analytics:
+    provider: google
+    property: G-QCK5NC3EEP
