@@ -1,0 +1,71 @@
+-- frame:9: -------------------------------------------------------------------
+
+x = 5
+
+if x == 5:
+  print( "x  5" )
+
+else:
+  print( "x no  5" )
+
+
+-- frame:10: -------------------------------------------------------------------
+
+def par( n ):
+
+  if n % 2 == 0:
+    print( n, ' par')
+
+  else:
+    print( n, 'no  par')
+
+
+-- frame:11: -------------------------------------------------------------------
+
+par(2)
+2  par
+
+par(3)
+3 no  par
+
+
+-- frame:16: -------------------------------------------------------------------
+
+def entre_zero_e_dez( n ):
+
+  if 0 < n and n < 10:
+    print( n, 'est entre 0 e 10')
+
+  else:
+    print( n, 'no est entre 0 e 10')
+
+
+-- frame:17: -------------------------------------------------------------------
+
+def par_ou_multiplo_de_tres( n ):
+
+  if n % 2 or n % 3:
+    print( n, ' par ou  mltiplo de 3')
+
+  else:
+    print( n, 'no  par nem mltiplo de 3')
+
+
+-- frame:19: -------------------------------------------------------------------
+
+import math as m
+
+def raizes( a, b, c ):
+  delta = b**2 - 4 * a * c
+
+  if delta < 0:
+    return []
+
+  elif delta == 0:
+    return -b / (2 * a)
+
+  else:
+    return [ (-b - m.sqrt(delta)) / (2 * a),
+             (-b + m.sqrt(delta)) / (2 * a) ]
+
+

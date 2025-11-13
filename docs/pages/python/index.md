@@ -1,23 +1,30 @@
 # Introdução ao Python
-Última atualização: 10/10/2025
+
+Última atualização: 2025-11-13 19:50:35
+
 
 ??? Apostila
     [[PDF]](Python_Sala_Aula.pdf) Python Sala Aula
 
 ??? "Python Para a Sala de Aula"
-    - [[PDF]](sala/Python-1-Programacao.pdf) [[LST]](sala/Python-1-Programacao.lst) Python 1 Programacao
-    - [[PDF]](sala/Python-2-Python.pdf) [[LST]](sala/Python-2-Python.lst) Python 2 Python
-    - [[PDF]](sala/Python-3-Funcoes.pdf) [[LST]](sala/Python-3-Funcoes.lst) Python 3 Funcoes
-    - [[PDF]](sala/Python-4-Estruturas.pdf) [[LST]](sala/Python-4-Estruturas.lst) Python 4 Estruturas
-    - [[PDF]](sala/Python-5-Controle.pdf) [[LST]](sala/Python-5-Controle.lst) Python 5 Controle
-    - [[PDF]](sala/Python-6-Objetos.pdf) [[LST]](sala/Python-6-Objetos.lst) Python 6 Objetos
-    - [[PDF]](sala/Python-7-NumPy.pdf) [[LST]](sala/Python-7-NumPy.lst) Python 7 NumPy
-    - [[PDF]](sala/Python-8-SymPy.pdf) [[LST]](sala/Python-8-SymPy.lst) Python 8 SymPy
+    - [[PDF]](sala/01-Programacao.pdf) 01 Programacao
+    - [[PDF]](sala/02-Python.pdf) [[LST]](sala/02-Python.lst) 02 Python
+    - [[PDF]](sala/03-Funcoes.pdf) [[LST]](sala/03-Funcoes.lst) 03 Funcoes
+    - [[PDF]](sala/04-Bibliotecas.pdf) [[LST]](sala/04-Bibliotecas.lst) 04 Bibliotecas
+    - [[PDF]](sala/05-Estruturas.pdf) [[LST]](sala/05-Estruturas.lst) 05 Estruturas
+    - [[PDF]](sala/06-Condicional.pdf) [[LST]](sala/06-Condicional.lst) 06 Condicional
+    - [[PDF]](sala/07-Repeticao.pdf) [[LST]](sala/07-Repeticao.lst) 07 Repeticao
+    - [[PDF]](sala/08-Objetos.pdf) 08 Objetos
+    - [[PDF]](sala/09-Matematica.pdf) 09 Matematica
+    - [[PDF]](sala/10-NumPy.pdf) [[LST]](sala/10-NumPy.lst) 10 NumPy
+    - [[PDF]](sala/11-Graficos_NumPy.pdf) [[LST]](sala/11-Graficos_NumPy.lst) 11 Graficos NumPy
+    - [[PDF]](sala/12-SymPy.pdf) [[LST]](sala/12-SymPy.lst) 12 SymPy
+    - [[PDF]](sala/13-Graficos_SymPy.pdf) [[LST]](sala/13-Graficos_SymPy.lst) 13 Graficos SymPy
 
 ??? "Python para Todos"
 
     ??? abstract "1 intro"
-        - [[PDF]](todos/1-intro/1-Introducao_Python-Progamacao.pdf) 1 Introducao Python Progamacao
+        - [[PDF]](todos/1-intro/1-Introducao_Python-Progamacao.pdf) [[LST]](todos/1-intro/1-Introducao_Python-Progamacao.lst) 1 Introducao Python Progamacao
         - [[PDF]](todos/1-intro/2-Introducao_Python-Python.pdf) [[LST]](todos/1-intro/2-Introducao_Python-Python.lst) 2 Introducao Python Python
         - [[PDF]](todos/1-intro/3-Introducao_Python-Funcoes.pdf) [[LST]](todos/1-intro/3-Introducao_Python-Funcoes.lst) 3 Introducao Python Funcoes
         - [[PDF]](todos/1-intro/4-Introducao_Python-Condicional.pdf) [[LST]](todos/1-intro/4-Introducao_Python-Condicional.lst) 4 Introducao Python Condicional
