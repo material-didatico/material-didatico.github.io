@@ -2,7 +2,7 @@
 
 # Integração e Séries
 
-[![Integração e Séries](capa_is.jpg){ width="350" }](action/Integracao_e_Series.pdf)
+[![Integração e Séries](capa_is.jpg){ width="350" }](https://material-didatico.github.io/Apostila_Integrais_e_Series/Integracao_e_Series.pdf)
 
 Apostila, ainda em desenvolvimento, para a disciplina de Integração e Séries do CEFET-MG.
 
@@ -26,6 +26,6 @@ Apostila, ainda em desenvolvimento, para a disciplina de Integração e Séries 
 
 ## Download
 
-- __[Apostila](action/Integracao_e_Series.pdf)__
-- __[Materiais da disciplina](action/index.md)__
+- __[Apostila](https://material-didatico.github.io/Apostila_Integrais_e_Series/Integracao_e_Series.pdf)__
+- __[Materiais da disciplina](https://material-didatico.github.io/Apostila_Integrais_e_Series)__
 - __[Arquivo BIB](is.bib)__
