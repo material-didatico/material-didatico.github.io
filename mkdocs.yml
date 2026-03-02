@@ -5,11 +5,12 @@ site_url: https://material-didatico.github.io
 nav:
   - Início: index.md
   - Graduação:
+    - Matemática Básica:                       pages/mat_basica/index.md
     - Cálculo de Funções de Várias Vaiáveis I: pages/cfvv1/index.md
-    - Integração e Séries: pages/is/index.md
-    - EDPs:                pages/edp/index.md
-    - Administração:       pages/administracao/index.md
-    - Cálculo IV:          pages/calculo_4/index.md
+    - Integração e Séries:                     pages/is/index.md
+    - EDPs:                                    pages/edp/index.md
+    - Administração:                           pages/administracao/index.md
+    - Cálculo IV:                              pages/calculo_4/index.md
   - Ensino Básico:
     - Infinito:          pages/infinito/index.md
     - Construção Civil:  pages/civil/index.md

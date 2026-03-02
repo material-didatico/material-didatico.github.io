@@ -12,3 +12,8 @@ Para criar um servidor local
 uv run -m mkdocs serve
 ```
 
+## Comando para converter a capa de PDF para JPG
+
+```
+magick -density 37 capa.pdf -quality 90 capa.jpg 
+```
