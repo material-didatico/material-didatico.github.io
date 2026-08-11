@@ -13,6 +13,7 @@ Estes são materiais didáticos para algumas disciplinas de graduação:
 
 - [Matemática Básica](pages/mat_basica/index.md)
 - [Cálculo de Funções de Várias Variáveis I](pages/cfvv1/index.md)
+- [Geometria Analítica e Algebra Linear](pages/gaal/index.md)
 - [Integração e Séries](pages/is/index.md)
 - [EDPs](pages/edp/index.md)
 - [Matemática para a Administração](pages/administracao/index.md)
