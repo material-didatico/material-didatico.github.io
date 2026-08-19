@@ -22,6 +22,6 @@ em hipótese alguma, o estudo sistemático do livro.
 Os links a seguir contém materiais produzidos por outros docentes do 
 Departamento de Matemática do CEFET-MG
 
-- __[Vídeo aulas](pages/gaal/video-aulas.md)__
+- __[Vídeo Aulas](video-aulas.md)__
 
-- __[Notas de aulas e listas de exercícios](pages/gaal/complementar.md)__
+- __[Notas de Aulas e Listas de Exercícios](complementar.md)__
