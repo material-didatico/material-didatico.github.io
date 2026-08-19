@@ -15,3 +15,13 @@ como apoio complementar aos estudos, não substituindo,
 em hipótese alguma, o estudo sistemático do livro.
 
 - __[Materiais da disciplina](https://material-didatico.github.io/Apostila_GAAL)__
+
+
+## Materiais complementares
+
+Os links a seguir contém materiais produzidos por outros docentes do 
+Departamento de Matemática do CEFET-MG
+
+- __[Vídeo aulas](pages/gaal/video-aulas.md)__
+
+- __[Notas de aulas e listas de exercícios](pages/gaal/complementar.md)__
