@@ -5,7 +5,7 @@
 ## Disciplinas de Graduação
 
 As [ementas das disciplinas](https://www.dm.cefetmg.br/ensino/disciplinas/disciplinas-do-nucleo-de-matematica-grad)
-podem ser baixadas do site sdo
+podem ser baixadas do site do
 [Departamento de Matemática](https://www.dm.cefetmg.br)
 do [CEFET-MG](https://www.cefetmg.br).
 
@@ -18,6 +18,10 @@ Estes são materiais didáticos para algumas disciplinas de graduação:
 - [EDPs](pages/edp/index.md)
 - [Matemática para a Administração](pages/administracao/index.md)
 - [Cálculo IV](pages/calculo_4/index.md)
+
+## Recursos Educacionais Online 
+
+- [Recursos educaionais online](pages/online/index.md)
 
 ## Produtos do Profmat para o Ensino Básico
 
