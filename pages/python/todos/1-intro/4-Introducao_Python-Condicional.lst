@@ -1,0 +1,133 @@
+-- frame:12: -------------------------------------------------------------------
+
+num = int(input("Insira um numero: "))
+
+if num > 0:
+  print("\nE positivo!")
+
+
+-- frame:14: -------------------------------------------------------------------
+
+num = int(input("Insira um numero: "))
+
+if num % 2 == 0:
+  print("\nE par!")
+
+
+-- frame:16: -------------------------------------------------------------------
+
+nota = float(input("Nota: "))
+freq = float(input("Frequncia: "))
+
+if nota >= 60 and freq >= 75:
+  print("\nFoi aprovado.")
+
+
+-- frame:17: -------------------------------------------------------------------
+
+if teste:
+  Executa se teste  verdadeiro
+
+else:
+  Executa se teste  falso
+
+
+-- frame:18: -------------------------------------------------------------------
+
+if teste:
+  Executa se teste  verdadeiro
+
+elif teste_2:
+  Executa se teste_2  verdadeiro
+
+else:
+  Executa se teste  falso
+
+
+-- frame:19: -------------------------------------------------------------------
+
+x = 5
+
+if x == 5:
+  print( "x  5" )
+
+else:
+  print( "x no  5" )
+
+
+-- frame:21: -------------------------------------------------------------------
+
+nota = float(input("Nota: "))
+freq = float(input("Frequncia: "))
+
+if nota >= 60 and freq >= 75:
+  print("\nFoi aprovado.")
+
+else:
+  print("\nNo foi aprovado.")
+
+
+-- frame:23: -------------------------------------------------------------------
+
+nota = float(input("Nota final: "))
+freq = float(input("Frequncia (%): "))
+
+if nota >= 60 and freq >= 75:
+  print("Aluno aprovado.")
+
+elif 40 <= nota < 60 and freq >= 75:
+  print("Aluno em recuperao.")
+
+else:
+  print("Aluno reprovado.")
+
+
+-- frame:25: -------------------------------------------------------------------
+
+nota = float(input("Nota final: "))
+freq = float(input("Frequncia (%): "))
+
+if freq < 75:
+  print("\nReprovado")
+elif nota < 40:
+  print("\nReprovado")
+elif 40 <= nota < 60:
+  print("\nRecuperao")
+else:
+  print("\nAprovado")
+
+
+-- frame:26: -------------------------------------------------------------------
+
+def par( n ):
+
+if n % 2 == 0:
+  print( n, ' par')
+
+else:
+  print( n, 'no  par')
+
+
+-- frame:27: -------------------------------------------------------------------
+
+par(2)
+2  par
+
+par(3)
+3 no  par
+
+
+-- frame:29: -------------------------------------------------------------------
+
+base = float(input("Digite a base: "))
+altura = float(input("Digite a altura: "))
+
+if base <= 0 or altura <= 0:
+  print("\nDados invlidos.")
+
+else:
+  area = base * altura
+  area = round(area, 2)
+  print("A rea :", area)
+
+

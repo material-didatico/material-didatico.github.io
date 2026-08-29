@@ -1,0 +1,93 @@
+-- frame:4: -------------------------------------------------------------------
+
+\begin{thebibliography}{}
+
+\bibitem{MORAISFILHO} FILHO, D. C. de M.
+        \textbf{}. 1. ed.
+        Rio de Janeiro: SBM, 2014. 169p. ISBN 9788583370192.
+
+\bibitem{LAMPORT} LAMPORT, L.
+        \textbf{Latex Document Preparation System}.  [S.l.]:
+        Addison Wesley Publishing Co, 1985. ISBN 978-0201157901.
+
+\end{thebibliography}
+
+
+-- frame:9: -------------------------------------------------------------------
+
+As citaes aparecem no texto como~\cite{IORIOJR:EQ_DIF_PARC}
+ou se usadas em conjunto~\cite{LIMA:CUR_ANA_1, LIMA:CUR_ANA_2}.
+Citando pelo nome do autor~\citeauthor{LOPES:EQ_DIF_ORD}.
+
+
+-- frame:12: -------------------------------------------------------------------
+
+@Book{CARVALHO:MAT_DISC,
+  Title     = {Matemtica Discreta},
+  Author    = {Paulo Cezar Pinto Carvalho 
+               Augusto Cezar de Oliveira Morgado},
+  Year      = {2015},
+  Edition   = {2},
+        = {9788583370154},
+  Pages     = {192},
+  Publisher = {SBM},
+  Series    = {Coleo Profmat},
+  Address   = {Rio de Janeiro}
+}
+
+
+-- frame:13: -------------------------------------------------------------------
+
+@MasterThesis{GEOGEBRA:TESE,
+  Title  = {{G}eo{G}ebra: Ein {S}oftwaresystem fr
+            dynamische {G}eometrie und {A}lgebra der {E}bene},
+  Author = {Markus Hohenwarter},
+  Year   = {2002-02},
+  Note   = {(In German)},
+  Type   = {Mestrado em Matememtica},
+  School = {Paris Lodron University, Salzburg, Austria}
+}
+
+
+-- frame:14: -------------------------------------------------------------------
+
+@Article{LOPES:CELULAR,
+  Title     = {O uso do celular em sala de aula como ferramenta
+               pedaggica: benefcios e desafios},
+  Author    = {P. A. Lopes  C. C. C. Pimenta},
+  Year      = {2017},
+  Number    = {1},
+  Pages     = {52-66},
+  Volume    = {3},
+  Address   = {Recife -- PE},
+  Journal   = {Revista Cadernos de Estudos e Pesquisa na
+               Educao Bsica},
+  Publisher = {{CAP} {UFPE}}
+}
+
+
+-- frame:15: -------------------------------------------------------------------
+
+@Manual{LDB,
+  Title = {Lei de Diretrizes e Bases da Educao
+           Nacional n. 9394, de 20 de Dezembro de 1996},
+  Year  = {1996},
+  Note  = {Estabelece as diretrizes e bases da
+           educao nacional},
+  Organization = {Brasil. Ministrio da Educao},
+  Publisher    = {MEC},
+  Address      = {Braslia}
+}
+
+
+-- frame:16: -------------------------------------------------------------------
+
+@Misc{WIKI:TEO_FUND_ARIT,
+  Title         = {Teorema fundamental da aritmtica},
+  Url           = {https://pt.wikipedia.org/wiki/Teorema_fundamental_da_aritmtica},
+  Year          = {2017-09-13},
+  Organization  = {Wikipdia},
+  UrlAccessDate = {18 de maro de 2018}
+}
+
+

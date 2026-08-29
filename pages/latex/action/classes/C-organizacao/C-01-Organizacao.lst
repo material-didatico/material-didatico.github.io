@@ -1,0 +1,117 @@
+-- frame:2: -------------------------------------------------------------------
+
+\title{Ttulo do Trabalho}
+
+\author{Eu}
+
+\date{\today}
+
+
+-- frame:2: -------------------------------------------------------------------
+
+\begin{document}
+
+  \maketitle
+
+
+-- frame:3: -------------------------------------------------------------------
+
+\chapter{}
+
+\section{}
+
+\subsection{}
+
+\subsubsection{}
+
+
+-- frame:4: -------------------------------------------------------------------
+
+Bla bla bla bla bla bla bla bla bla bla bla bla bla:
+\begin{itemize}
+  \item Bla bla bla
+  \item Bla bla bla
+  \item Bla bla bla
+\end{itemize}
+
+
+-- frame:5: -------------------------------------------------------------------
+
+Bla bla bla bla bla bla bla bla bla bla bla bla bla:
+\begin{enumerate}
+  \item Bla bla bla
+  \item Bla bla bla
+  \item Bla bla bla
+\end{enumerate}
+
+
+-- frame:6: -------------------------------------------------------------------
+
+Bla bla bla bla bla bla bla bla bla bla bla bla bla:
+\begin{description}
+  \item[Azul]  Bla bla bla
+  \item[Verde] Bla bla bla
+  \item[Cinza] Bla bla bla
+\end{description}
+
+
+-- frame:7: -------------------------------------------------------------------
+
+Bla bla bla bla bla bla bla bla bla bla bla bla
+bla\footnote{}.
+Bla bla bla bla bla bla bla bla bla bla bla bla bla.
+
+
+-- frame:8: -------------------------------------------------------------------
+
+Texto em latim `Quod erat demonstrandum'
+
+
+-- frame:8: -------------------------------------------------------------------
+
+Texto em latim ``Quod erat demonstrandum''
+
+
+-- frame:9: -------------------------------------------------------------------
+
+... Figura 3.
+
+
+-- frame:9: -------------------------------------------------------------------
+
+... Figura~3.
+
+
+-- frame:12: -------------------------------------------------------------------
+
+Texto gerado aleatoriamente,
+\textit{``Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+Cras viverra ornare enim vel euismod''}.
+
+
+-- frame:13: -------------------------------------------------------------------
+
+Texto gerado aleatoriamente.
+\begin{quote}
+  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+  Proin pellentesque dictum facilisis.
+  Maecenas eleifend lectus est, vitae ornare mauris tincidunt nec.
+\end{quote}
+
+
+-- frame:14: -------------------------------------------------------------------
+
+Texto gerado aleatoriamente.
+\begin{quotation}
+  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+  Cras viverra ornare enim vel euismod.
+  Proin pellentesque dictum facilisis.
+  Maecenas eleifend lectus est, vitae ornare mauris tincidunt nec.
+
+  Proin pellentesque dictum facilisis.
+  Maecenas eleifend lectus est, vitae ornare mauris tincidunt nec.
+  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+  Cras viverra ornare enim vel euismod.
+\end{quotation}
+
+

@@ -1,0 +1,124 @@
+-- frame:8: -------------------------------------------------------------------
+
+\documentclass{article}
+
+% Preambulo
+
+\begin{document}
+
+  % Corpo do Texto
+
+  Meu primeiro texto!
+
+\end{document}
+
+
+-- frame:11: -------------------------------------------------------------------
+
+\documentclass{article}
+
+% Preambulo
+
+\begin{document}
+
+  % Corpo do Texto
+
+  Minha primeira identidade usando as letras $n$ e $\alpha$
+  \[
+    \alpha = \sum_{n=1}^\infty \frac{1}{n^2}
+  \]
+
+\end{document}
+
+
+-- frame:13: -------------------------------------------------------------------
+
+\documentclass{article}
+
+% Preambulo
+
+\begin{document}
+
+  % Corpo do Texto
+
+  Minha primeira f\'ormula usando as letras $n$ e $\alpha$
+  \[
+    \alpha = \sum_{n=1}^\infty \frac{1}{n^2}
+  \]
+  Foi usado um somat\'orio de fra\c{c}\~oes.
+
+\end{document}
+
+
+-- frame:17: -------------------------------------------------------------------
+
+\usepackage[opcao1, opcao2, opcao3]{nome_do_pacote}
+
+
+-- frame:18: -------------------------------------------------------------------
+
+\documentclass{article}
+
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{ae}
+\usepackage[brazil]{babel}
+\usepackage{indentfirst}
+
+\begin{document}
+  Minha primeira frmula usando as letras $n$ e $\alpha$
+  \[
+    \alpha = \sum_{n=1}^\infty \frac{1}{n^2}
+  \]
+  Foi usado um somatrio de fraes.
+\end{document}
+
+
+-- frame:21: -------------------------------------------------------------------
+
+\begin{document}
+  Minha primeira frmula usando as letras $n$ e $\alpha$
+  \[
+    \alpha = \sum_{n=1}^\infty \frac{1}{n^2}
+  \]
+  Foi usado um somatrio de fraes.
+  Nesse exemplo $\alpha \in R$.
+\end{document}
+
+
+-- frame:23: -------------------------------------------------------------------
+
+\usepackage{latexsym}
+\usepackage{amsmath}
+\usepackage{amsthm}
+\usepackage{amssymb}
+
+\begin{document}
+  Minha primeira frmula usando as letras $n$ e $\alpha$
+  \[
+    \alpha = \sum_{n=1}^\infty \frac{1}{n^2}
+  \]
+  Foi usado um somatrio de fraes.
+  Nesse exemplo $\alpha \in \mathbb{R}$.
+\end{document}
+
+
+-- frame:25: -------------------------------------------------------------------
+
+A certificao de metodologias que nos auxiliam a
+lidar com a contnua expanso de nossa atividade
+agrega valor ao estabelecimento das posturas dos
+rgos dirigentes com relao s suas atribuies.
+
+
+Assim mesmo, a percepo das dificuldades apresenta
+tendncias no sentido de aprovar a manuteno do
+sistema de formao de quadros que corresponde s
+necessidades.
+
+
+-- frame:27: -------------------------------------------------------------------
+
+  \usepackage[ a4paper, margin=20mm ]{geometry}
+
+

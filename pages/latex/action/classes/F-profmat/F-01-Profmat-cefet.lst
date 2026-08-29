@@ -1,0 +1,113 @@
+-- frame:2: -------------------------------------------------------------------
+
+\documentclass[opes]{profmat-cefet}
+
+
+-- frame:4: -------------------------------------------------------------------
+
+\documentclass[fleqn,short]{profmat-cefet}
+
+
+-- frame:4: -------------------------------------------------------------------
+
+\documentclass[fleqn]{profmat-cefet}
+
+
+-- frame:5: -------------------------------------------------------------------
+
+\autor{Luis Alberto D'Afonseca}
+
+\title{Como Escrever uma Dissertao para o PROFMAT}
+
+\date{31}{02}{2020}
+
+\banca
+{
+  Tales de Mileto      \\
+  Ada Lovela           \\
+  Carl Friedrich Gauss
+}
+
+\orientador{Carl Friedrich Gauss}
+
+\coorientacao{Ada Lovelace}
+
+
+-- frame:6: -------------------------------------------------------------------
+
+\begin{dedication}
+  Sua dedicatria.
+\end{dedication}
+
+
+-- frame:6: -------------------------------------------------------------------
+
+\begin{acknowledgement}
+  Seus agradecimentos.
+
+  O presente trabalho foi realizado com apoio da
+  Coordenao de Aperfeioamento de Pessoal de Nvel Superior
+  -- Brasil (CAPES) -- Cdigo de Financiamento 001.
+\end{acknowledgement}
+
+
+-- frame:7: -------------------------------------------------------------------
+
+\begin{Resumo}
+  Seu resumo.
+
+  \PalavrasChave Matemtica. Ensino. Cincia.
+\end{Resumo}
+
+
+-- frame:7: -------------------------------------------------------------------
+
+\begin{Abstract}
+  Your abstract.
+
+  \Keywords Mathematics. Teaching. Science.
+\end{Abstract}
+
+
+-- frame:8: -------------------------------------------------------------------
+
+\chapter*{Lista de Smbolos}
+  Sua lista de smbolos, s se ela for necessria.
+
+
+\listoffigures
+
+
+\listoftables
+
+
+\tableofcontents
+
+
+-- frame:11: -------------------------------------------------------------------
+
+\begin{teorema}[Teorema de Pitgoras]
+  \label{teo:pitagoras}
+  Em um tringulo retngulo a soma dos quadrados dos catetos
+   igual ao quadrado da hipotenusa.
+\end{teorema}
+
+
+-- frame:12: -------------------------------------------------------------------
+
+\begin{proof}[Demonstrao da Existncia]
+Bla, bla, bla, bla, bla, bla, bla, bla, bla, bla, bla...
+\end{proof}
+
+
+-- frame:15: -------------------------------------------------------------------
+
+\fonte{Texto.}
+
+\fonteCite{Texto}{label}
+
+\fonteUrl{www.endereco.org}
+
+\fonteAutor
+
+

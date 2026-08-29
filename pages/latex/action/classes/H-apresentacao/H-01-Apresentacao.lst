@@ -1,0 +1,76 @@
+-- frame:3: -------------------------------------------------------------------
+
+\documentclass{beamer}
+
+
+-- frame:3: -------------------------------------------------------------------
+
+\documentclass[aspectratio=169]{beamer}
+
+
+-- frame:4: -------------------------------------------------------------------
+
+\begin{}{Ttulo}
+
+  Contedo
+
+\end{}
+
+
+-- frame:6: -------------------------------------------------------------------
+
+\begin{}{Ttulo}
+
+  Destacando uma palavra \emph{importante}.
+
+\end{}
+
+
+-- frame:8: -------------------------------------------------------------------
+
+\begin{}{Slides com Pausas}
+
+Parte 1
+
+\pause
+Parte 2
+
+\pause
+Parte 3
+
+\end{}
+
+
+-- frame:10: -------------------------------------------------------------------
+
+\begin{}{Pausas em Listas}
+  \begin{enumerate}
+    \item Parte 1
+    \item Parte 2
+    \item Parte 3
+  \end{enumerate}
+\end{}
+
+
+-- frame:12: -------------------------------------------------------------------
+
+\begin{}{Controle Detalhado -- 2}
+  \onslide<1>{Primeiro}
+  \onslide<2>{Segundo}
+  \onslide<3>{Terceiro}
+  \onslide<4>{Quarto}
+  \onslide<5>{Quinto}
+\end{}
+
+
+-- frame:14: -------------------------------------------------------------------
+
+\begin{}{Controle Detalhado -- 1}
+  \onslide<1->{Primeiro}
+  \onslide<2->{Segundo}
+  \onslide<3->{Terceiro}
+  \onslide<4->{Quarto}
+  \onslide<5->{Quinto}
+\end{}
+
+
