@@ -13,6 +13,7 @@ nav:
     - Administração:        pages/administracao/index.md
     - Cálculo IV:           pages/calculo_4/index.md
   - Ensino Básico:
+    - Programação Dinâmica: pages/prog_dinamica/index.md
     - Infinito:          pages/infinito/index.md
     - Construção Civil:  pages/civil/index.md
     - Métodos Numéricos: pages/met_num_medio/index.md

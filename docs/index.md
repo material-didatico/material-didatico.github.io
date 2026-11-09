@@ -27,6 +27,8 @@ Estes são materiais didáticos para algumas disciplinas de graduação:
 
 Estes são produtos de algumas dissertações de mestrado que orientei ou coorientei no Profmat:
 
+- [A Matemática do Ótimo: Introdução à Programação Dinâmica](pages/prog_dinamica/index.md) –
+  Apostila para apresentar o método de programação dinâmica para alunos do ensino médio.
 - [Quem disse que 0,999... = 1?](pages/infinito/index.md) –
   Apostila sobre o infinto para o Ensino Médio.
 - [Construção Civil](pages/civil/index.md) –
