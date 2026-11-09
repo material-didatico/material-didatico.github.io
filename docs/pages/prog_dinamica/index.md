@@ -21,4 +21,5 @@ Apostila para apresentar o método de Programação Dinâmica para alunos do Ens
 ## Download
 
 - __[Apostila](action/A_Matematica_do_Otimo_Introducao_a_Programacao_Dinamica.pdf)__
+- __[Dissertação](action/Dissertacao_Joaquim_Lopes_jr.pdf)__
 
