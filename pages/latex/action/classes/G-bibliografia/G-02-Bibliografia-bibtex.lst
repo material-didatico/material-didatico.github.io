@@ -1,0 +1,63 @@
+-- frame:4: -------------------------------------------------------------------
+
+
+As citaes aparecem no texto como
+\cite{} ou se usadas em conjuto como
+\cite{}. Mais uma citao
+\cite{}.
+
+
+
+-- frame:7: -------------------------------------------------------------------
+
+@Book{Strauss(1989),
+  author    = {Walter A. Strauss},
+  title     = {Nonlinear Wave Equations},
+  publisher = {American Mathematical Society},
+  year      = {1989}
+}
+
+@Book{bleistein2001,
+  author    = {Bleistein, N. and Cohen, J. K. and Stockwell, W.},
+  title     = {Mathematics of Multidimensional Seismic Inversion},
+  publisher = {Springer},
+  year      = {2001}
+}
+
+
+-- frame:8: -------------------------------------------------------------------
+
+@PhdThesis{bilotidocthesis,
+  author  = {Biloti, Ricardo},
+  title   = {Tempos de tr{\^a}nsito multiparam{\'e}tricos:
+             estima{\c{c}}{\~a}o e invers{\~a}o},
+  school  = {Universidade Estadual de Campinas},
+  year    = {2001},
+  address = {Campinas}
+}
+
+
+-- frame:9: -------------------------------------------------------------------
+
+@Article{Gundlach(2003),
+  author  = {Carsten Gundlach},
+  title   = {Critical phenomena in gravitational collapse},
+  journal = {Physics Reports},
+  year    = {2003},
+  volume  = {6},
+  number  = {376},
+  pages   = {339-405}
+}
+
+
+-- frame:10: -------------------------------------------------------------------
+
+@misc{ wiki:xxx,
+  author = {Wikipedia},
+  title  = {LaTeX --- Wikipedia{,} The Free Encyclopedia},
+  year   = {2011},
+  url    = {\url{https://en.wikipedia.org/w/index.php?title=LaTeX&oldid=413720397}},
+  note   = {[Online; acessada em 27-Maio-2017]}
+ }
+
+

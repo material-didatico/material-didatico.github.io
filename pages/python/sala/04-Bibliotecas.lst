@@ -1,0 +1,8 @@
+-- frame:4: -------------------------------------------------------------------
+
+import math
+import math as m
+from math import cos
+from math import sin as sen
+
+

@@ -1,0 +1,255 @@
+-- frame:4: -------------------------------------------------------------------
+
+# No final da classe BLOCO
+
+class Blocos:
+
+  def __init__(self,  cor):
+    self.cor = cor
+    self.blocos = []
+    self.espacamento = 4
+
+
+-- frame:5: -------------------------------------------------------------------
+
+  def cria_blocos(self, numero_de_linhas,numero_de_colunas):
+
+    for i in range(numero_de_linhas):
+      for j in range(numero_de_colunas):
+        bloco= Bloco(self.cor)
+
+        bloco.cria_bloco(
+          j * (70+ self.espacamento),
+          i * (70+ self.espacamento),
+          70, 70
+        )
+        self.blocos.append(bloco)
+
+
+-- frame:6: -------------------------------------------------------------------
+
+# SETUP
+numero_de_linhas=5
+numero_de_colunas=8
+blocos = Blocos(("green"))
+blocos.cria_blocos(numero_de_linhas, numero_de_colunas)
+
+
+-- frame:7: -------------------------------------------------------------------
+
+# LOOP PRINCIPAL
+  desenha_elementos(tela, jogador, bola, blocos)
+
+
+-- frame:8: -------------------------------------------------------------------
+
+def desenha_elementos(tela, jogador, bola, blocos):
+  #...
+  for bloco in blocos.blocos:
+    pg.draw.rect(tela, bloco.cor, bloco.bloco)
+
+
+-- frame:12: -------------------------------------------------------------------
+
+    # Na classe Blocos, def cria_blocos
+    self.espacamento = int(
+      largura/(numero_de_colunas*20.0)
+    )
+
+    espaco_para_os_blocos = (
+      largura - self.espacamento * numero_de_colunas
+    )
+
+    bloco_largura = int(
+      espaco_para_os_blocos / numero_de_colunas
+    )
+
+    bloco_altura = 0.3 * altura / numero_de_linhas
+
+
+-- frame:13: -------------------------------------------------------------------
+
+    # Na classe Blocos
+    # Dentro da def cria_blocos
+    # Substituir a chamada da funo cria_bloco por:
+    bloco.cria_bloco(
+      j * (bloco_largura + self.espacamento),
+      i * (bloco_altura  + self.espacamento),
+      bloco_largura,
+      bloco_altura
+    )
+
+
+-- frame:14: -------------------------------------------------------------------
+
+    # Na classe brick_breaker
+    # Dentro da funo inicia_jogo()
+    # acrescentar largura e altura como parametro
+
+    blocos.cria_blocos(
+      numero_de_linhas,
+      numero_de_colunas,
+      largura,
+      altura
+    )
+
+
+-- frame:18: -------------------------------------------------------------------
+
+  def confere_colisao_blocos(self, blocos):
+
+    for bloco in blocos.blocos:
+
+      if self.bola.colliderect(bloco.bloco):
+        blocos.blocos.remove(bloco)
+
+
+
+-- frame:19: -------------------------------------------------------------------
+
+    # Ainda dentro da funcao confere_coliso
+    #...
+
+    if(self.velocidade[1]<0):
+      self.velocidade[1] = self.velocidade_y
+
+    elif(self.velocidade[1]>0):
+      self.velocidade[1] = -self.velocidade_y
+
+
+-- frame:20: -------------------------------------------------------------------
+
+    # Ainda classe Bola
+    # Dentro da funcao def move
+  def move(self, jogador, largura, altura, blocos):
+    self.confere_colisao_blocos(blocos)
+
+
+-- frame:21: -------------------------------------------------------------------
+
+    # Na classe brick_breaker
+    # Dentro da funcao inicia_jogo
+    # Dentro do while
+    # Acrescentar blocos como parametro de bola.move
+
+    bola.move(jogador, largura, altura, blocos)
+
+
+-- frame:24: -------------------------------------------------------------------
+
+    # Na classe brick_breaker
+    # Criar a seguinte funo
+
+    def move_bola(
+      bola,
+      jogador,
+      largura,
+      altura,
+      blocos
+    ):
+      bola.move(jogador, largura, altura, blocos)
+
+
+-- frame:25: -------------------------------------------------------------------
+
+    # Ainda na classe brick_breaker
+    # Dentro da funcao inicia_jogo
+    # Dentro do while
+    # Trocar as linhas:
+
+    # bola.move(jogador, largura, altura, blocos)
+
+    # Por
+    move_bola(bola, jogador, largura , altura, blocos)
+
+
+-- frame:28: -------------------------------------------------------------------
+
+def confere_colisao_parede(self, largura, altura):
+  # no final da funo confere_colisao_parede
+  #...
+  if self.bola.y >= altura-self.tamanho_bola:
+    return False
+  return True
+
+
+-- frame:29: -------------------------------------------------------------------
+
+def move(self, jogador, largura, altura, blocos):
+  # no final da funo
+  return self.confere_colisao_parede(largura, altura)
+
+
+-- frame:30: -------------------------------------------------------------------
+
+# Na classe principal
+# SETUP
+estado = 0
+
+  # LOOP PRINCIPAL
+  estado = move_bola(bola,
+                     jogador,
+                     largura,
+                     altura,
+                     blocos
+                    )
+
+
+-- frame:31: -------------------------------------------------------------------
+
+# Na classe principal
+def move_bola(bola, jogador, largura, altura, blocos):
+  if(bola.move(jogador,largura, altura, blocos)):
+    return 0
+  return 1  # Jogo acaba
+
+
+-- frame:32: -------------------------------------------------------------------
+
+# Na classe brick_breaker
+def desenha_elementos(tela, jogador, bola, blocos, estado):
+  if(estado == 1): # Se o jogo acabou
+    fonte = pg.font.SysFont("Arial", 150)
+    texto = fonte.render("Game Over", True, "red")
+    tela.blit(
+      texto,
+      (
+        tela.get_width()//2 - texto.get_width()//2,
+        tela.get_height()//2 - texto.get_height()//2
+      )
+    )
+
+
+-- frame:33: -------------------------------------------------------------------
+
+  else:
+    # O resto dentro de um else, menos update
+
+
+-- frame:37: -------------------------------------------------------------------
+
+def move_bola(bola, jogador, largura, altura, blocos):
+  if(blocos.blocos.__len__() == 0):
+    return 2
+  if(bola.move(jogador, largura, altura, blocos)):
+    return 0
+  return 1
+
+
+-- frame:38: -------------------------------------------------------------------
+
+# Na classe brick_breaker
+# Dentro da funo desenha_elementos:
+# apos o termino do if
+elif(estado == 2):  # Se venceu
+  fonte = pg.font.SysFont("Arial", 150)
+  texto = fonte.render("You Win", True, "green")
+  tela.blit(
+    texto,
+    (
+      tela.get_width() // 2 - texto.get_width() // 2,
+      tela.get_height() // 2 - texto.get_height() // 2
+    )
+  )
+
+

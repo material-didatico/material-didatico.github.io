@@ -1,0 +1,87 @@
+-- frame:4: -------------------------------------------------------------------
+
+import numpy as np
+
+from matplotlib import pyplot as plt
+
+
+-- frame:5: -------------------------------------------------------------------
+
+x = [ 1, 2, 5, 6, 7 ]
+
+y = [ 0, 1, 0, 2, 4 ]
+
+plt.plot( x, y )
+
+
+-- frame:7: -------------------------------------------------------------------
+
+x = np.linspace( -5, 5, 40 )
+
+y = x**3
+
+plt.plot( x, y )
+
+
+-- frame:8: -------------------------------------------------------------------
+
+x = np.linspace(0, 10, 100)
+
+y = np.sin(x)
+
+plt.plot( x, y )
+
+
+-- frame:9: -------------------------------------------------------------------
+
+x = np.linspace(-5, 5, 400)
+
+y = np.exp( -x**2 ) * np.cos(9*x)
+
+plt.plot( x, y )
+
+
+-- frame:16: -------------------------------------------------------------------
+
+def triangulo(a, b):
+
+    x = [ 0, a, 0, 0]
+
+    y = [ 0, 0, b, 0]
+
+    plt.plot(x, y)
+
+
+-- frame:17: -------------------------------------------------------------------
+
+def triangulo(a, b):
+
+    x = [ 0, a, 0, 0]
+    y = [ 0, 0, b, 0]
+
+    plt.plot(x, y)
+    plt.gca().set_aspect('equal', adjustable='box')
+    plt.axis('off')
+    plt.draw()
+
+
+-- frame:23: -------------------------------------------------------------------
+
+def desenhar_poligono( n, r ):
+
+  t = np.linspace( 0, 2*np.pi, n+1 );
+  x = r * np.cos( t )
+  y = r * np.sin( t )
+
+  plt.plot( x, y )
+  plt.gca().set_aspect('equal', adjustable='box')
+  plt.axis('off')
+  plt.draw()
+
+
+-- frame:24: -------------------------------------------------------------------
+
+for k in range(4,20):
+  desenhar_poligono( k, k )
+
+
